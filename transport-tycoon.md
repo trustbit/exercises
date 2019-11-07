@@ -6,7 +6,7 @@ This is a set of DDD/ES exercises takes place in the universe of the [Transport 
 
 ## Exercise 1
 
-> You can listen to [10-minute introduction by Peter and Rinat](https://storage.googleapis.com/swp-podcast/ethos/swp-ethos-podcast-01.mp3) or read the summary below.
+> You can listen to [10-minute introduction by Peter Szarvas and Rinat Abdullin](https://storage.googleapis.com/swp-podcast/ethos/swp-ethos-podcast-01.mp3) or read the summary below.
 
 There is a map containing a Factory, Port, warehouse A and B. Factory has a small stock of containers that have to be delivered to these warehouses. There are **two trucks and one ship that can carry one container at a time** (trucks start at Factory, ship starts at the Port). 
 
