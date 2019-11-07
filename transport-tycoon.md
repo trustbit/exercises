@@ -6,7 +6,7 @@ This is a set of DDD/ES exercises takes place in the universe of the [Transport 
 
 
 
-![tt-1-the-game.png](/Users/rinat/proj/exercises/images/tt-1-the-game.png)
+![tt-1-the-game.png](images/tt-1-the-game.png)
 
 
 
@@ -16,7 +16,7 @@ There is a map containing a Factory, Port, warehouse A and B. Factory has a smal
 
 Transport follows a simple heuristic: pick the first available container from the location, bring it to the designation, then come back home.
 
-![tt-1-exercise.png](/Users/rinat/proj/exercises/images/tt-1-exercise.png)
+![tt-1-exercise.png](images/tt-1-exercise.png)
 
 Task: write a program that takes a list of cargos from the command line and prints out the number of hours that it would take to get them delivered.
 
