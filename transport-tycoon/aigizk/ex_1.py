@@ -66,7 +66,7 @@ class TransportState:
 
     def next_step(self, current_time, warehouses, cargos, routes):
         if self.start_time + self.duration > current_time:
-            print("{} drove  CARGO-{}[{} of {} through]".format(self.name, self.cargoid,
+            print("- {} drove  CARGO-{}[{} of {} through]".format(self.name, self.cargoid,
                                                    current_time - self.start_time,
                                                    self.duration))
             return
@@ -78,7 +78,7 @@ class TransportState:
             current_warehouse=list(filter(lambda w: w.name == self.end, warehouses))[0]
             current_warehouse.cargoids.append(self.cargoid)
 
-            print("{} delivered CARGO-{}".format(self.name, self.cargoid))
+            print("- {} delivered CARGO-{}".format(self.name, self.cargoid))
             current_cargo = \
                 list(filter(lambda c: c.id == self.cargoid, cargos))[0]
             current_cargo.current_state = self.end
@@ -121,7 +121,7 @@ class TransportState:
             cargo.current_state = IN_THE_WAY
             cargo.current_transport = self.name
             print(
-                "{} take CARGO-{} from {} to {}".format(self.name, self.cargoid,
+                "- {} take CARGO-{} from {} to {}".format(self.name, self.cargoid,
                                                         self.start, self.end))
             return
 
@@ -166,7 +166,7 @@ class TransportState:
 
                 return
 
-        print("{} is resting".format(self.name))
+        print("- {} is resting".format(self.name))
 
 
 def find_next_stop_point_by_way(routes, current, end, method, move_step):
@@ -268,7 +268,7 @@ if __name__ == "__main__":
 
         for w in warehouses:
             if len(w.cargoids)>0:
-                print("{} cargos:{}".format(w.name,w.cargoids))
+                print("- {} cargos:{}".format(w.name,w.cargoids))
 
         # for t in transports:
         #     t.try_to_complete(time, warehouses, cargos)
