@@ -30,3 +30,9 @@ Transport moves *in parallel*. First truck might be bringing container to a loca
 | ABB          | 7      |
 | AABABBAB     | ?      |
 | ABBBABAAABBB | ?      |
+
+When done, feel free to add your solution to the [transport-tycoon](transport-tycoon/) folder (you might need to clone the repository and send a Pull Request). Put the code into the subfolder named the same as your github alias.
+
+## Exercise 2
+
+To be announced November 13-15.
