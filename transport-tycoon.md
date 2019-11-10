@@ -10,15 +10,19 @@ This is a set of DDD/ES exercises takes place in the universe of the [Transport 
 
 > You can listen to [10-minute introduction by Peter Szarvas and Rinat Abdullin](https://storage.googleapis.com/swp-podcast/ethos/swp-ethos-podcast-01.mp3) or read the summary below.
 
-There is a map containing a Factory, Port, warehouse A and B. Factory has a small stock of containers that have to be delivered to these warehouses. There are **two trucks and one ship that can carry one container at a time** (trucks start at Factory, ship starts at the Port). 
-
-**Traveling takes a specific amount of hours** (represented by an orange number). Time is needed to travel in one direction, you also spend the same amount of time to come back. For example, it takes 5 hours for a truck to travel from the Factory to B.
+There is a map containing a Factory, Port, Warehouse A and Warehouse B. Factory has a small stock of containers that have to be delivered to these warehouses.
 
 ![tt-1-exercise.png](images/tt-1-exercise.png)
+
+There are **two trucks and one ship that can carry one container at a time** (trucks start at Factory, ship starts at the Port).
+
+**Traveling takes a specific amount of hours** (represented by an orange number). Time is needed to travel in one direction, you also spend the same amount of time to come back. For example, it takes 5 hours for a truck to travel from the Factory to B.
 
 Transport follows a simple heuristic: pick the first available container from the location, bring it to the designation, then come back home. Truck that drops off cargo at the Port doesn't need to wait for the ship (there is a small warehouse buffer there). It can drop the cargo and start heading back.
 
 Transport moves *in parallel*. First truck might be bringing container to a location A, while the second truck comes back from A, while ship travels back to the Port.
+
+### Task
 
 **Task**: write a program that takes a list of cargos from the command line and prints out the number of hours that it would take to get them delivered.
 
@@ -32,6 +36,18 @@ Transport moves *in parallel*. First truck might be bringing container to a loca
 | ABBBABAAABBB | ?      |
 
 When done, feel free to add your solution to the [transport-tycoon](transport-tycoon/) folder (you might need to clone the repository and send a Pull Request). Put the code into the subfolder named the same as your github alias.
+
+### Exercise Notes
+
+- Don't worry about making the code extensible. We will evolve the codebase, but the deeper domain dive will have to start from the scratch.
+
+- Don't worry if your numbers don't exactly match answers from your colleagues. There is a small loop-hole in the exercise that makes it non-deterministic. We will address it later.
+
+- While picking the language for the exercise, pick whatever that would let you solve the problem quicker. If you are itching to try out a new fancy language that you are less familiar with, there will be a chance for that later.
+
+### Bonus points
+
+1. What is the possible reason for the different solutions to return different answers?
 
 ## Exercise 2
 
