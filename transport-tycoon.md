@@ -45,6 +45,8 @@ When done, feel free to add your solution to the [transport-tycoon](transport-ty
 
 - While picking the language for the exercise, pick whatever that would let you solve the problem quicker. If you are itching to try out a new fancy language that you are less familiar with, there will be a chance for that later.
 
+- Remember that all processes happen in parallel. Trucks and ship would be moving around the map at the same time, not sequentially.
+
 ### Bonus points
 
 1. What is the possible reason for the different solutions to return different answers?
