@@ -35,7 +35,7 @@ Transport moves *in parallel*. First truck might be bringing container to a loca
 | AABABBAB     | ?      |
 | ABBBABAAABBB | ?      |
 
-When done, feel free to add link to your solution to the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md). Put the code into the subfolder named the same as your github alias.
+When done, feel free to add link to your solution to the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md). 
 
 ### Exercise Notes
 
