@@ -10,7 +10,7 @@ Feel free to link your solutions to this Readme.
 | [Aigiz Kunafin](https://github.com/AigizK)    | [Python](https://github.com/Softwarepark/exercises/tree/master/transport-tycoon/aigizk)           |      |      |
 | [Markus Ketzer](https://github.com/marketzer) | [Python](https://github.com/Softwarepark/exercises/tree/master/transport-tycoon/marketzer)        |      |      |
 | [Rinat Abdullin](https://github.com/abdullin) | [Python](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/abdullin/ex_1.py) |      |      |
-|                                               |                                                                                                   |      |      |
+| [Michael Roth](https://github.com/mrothNET)   | [TypeScript](https://github.com/mrothNET/transport-tycoon-exercises)                              |      |      |
 |                                               |                                                                                                   |      |      |
 |                                               |                                                                                                   |      |      |
 |                                               |                                                                                                   |      |      |
