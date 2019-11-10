@@ -35,7 +35,7 @@ Transport moves *in parallel*. First truck might be bringing container to a loca
 | AABABBAB     | ?      |
 | ABBBABAAABBB | ?      |
 
-When done, feel free to add your solution to the [transport-tycoon](transport-tycoon/) folder (you might need to clone the repository and send a Pull Request). Put the code into the subfolder named the same as your github alias.
+When done, feel free to add link to your solution to the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md). Put the code into the subfolder named the same as your github alias.
 
 ### Exercise Notes
 
@@ -47,9 +47,12 @@ When done, feel free to add your solution to the [transport-tycoon](transport-ty
 
 - Remember that all processes happen in parallel. Trucks and ship would be moving around the map at the same time, not sequentially.
 
+- Don't worry about applying any patterns (e.g. aggregates or events) at this point. Just get the job done. Implementation patterns will emerge in the codebase later.
+
 ### Bonus points
 
 1. What is the possible reason for the different solutions to return different answers?
+2. Link your solution in the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md).
 
 ## Exercise 2
 
