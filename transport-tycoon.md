@@ -56,4 +56,8 @@ When done, feel free to add link to your solution to the [solution list](https:/
 
 ## Exercise 2
 
-To be announced November 13-15.
+To be announced November 13-15. 
+
+You can subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark) or just check this repository later.
+
+
