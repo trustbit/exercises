@@ -15,5 +15,6 @@ Feel free to link your solutions to this Readme.
 | [Christian Folie](https://twitter.com/Folienmaster)|[F#](https://github.com/Nagelfar/exercises/blob/master/transport-tycoon/cfolie/Exercise1.fs)  |      |      |
 | [Jakub Konecki](https://github.com/jkonecki) |[C#](https://github.com/jkonecki/SoftwarePark/tree/master/TransportTycoon)                          |      |      |
 | [Peter Fourneau](https://github.com/pfournea) | [Kotlin](https://github.com/pfournea/transport-tycoon)                                            |      |      |
+| [Daniel Weller](https://github.com/danielweller-swp)     | [Scala](https://github.com/danielweller-swp/transport-tycoon/tree/master/ex1)          |      |     | 
 |                                               |                                                                                                   |      |      |
 |                                               |                                                                                                   |      |      |
