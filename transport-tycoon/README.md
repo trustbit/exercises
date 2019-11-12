@@ -16,5 +16,5 @@ Feel free to link your solutions to this Readme.
 | [Jakub Konecki](https://github.com/jkonecki) |[C#](https://github.com/jkonecki/SoftwarePark/tree/master/TransportTycoon)                          |      |      |
 | [Peter Fourneau](https://github.com/pfournea) | [Kotlin](https://github.com/pfournea/transport-tycoon)                                            |      |      |
 | [Daniel Weller](https://github.com/danielweller-swp)     | [Scala](https://github.com/danielweller-swp/transport-tycoon/tree/master/ex1)          |      |     | 
-|                                               |                                                                                                   |      |      |
+| [azm102](https://github.com/azm102) | [C#](https://github.com/azm102/exercises/tree/master/TransportTycoon1) | | |                                              |                                                                                                   |      |      |
 |                                               |                                                                                                   |      |      |
