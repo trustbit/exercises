@@ -13,7 +13,8 @@ Feel free to link your solutions to this Readme.
 | [Michael Roth](https://github.com/mrothNET)   | [TypeScript](https://github.com/mrothNET/transport-tycoon-exercises)                              |      |      |
 | [Mark Pattison](https://github.com/markpattison) | [F#](https://github.com/markpattison/transport-tycoon-kata)                                    |      |      |
 | [Christian Folie](https://twitter.com/Folienmaster)|[F#](https://github.com/Nagelfar/exercises/blob/master/transport-tycoon/cfolie/Exercise1.fs)  |      |      |
-| [Peter Fourneau](https://github.com/pfournea) | [Kotlin](https://github.com/pfournea/transport-tycoon)         |
-| [Daniel Weller](https://github.com/danielweller-swp)     | [Scala](https://github.com/danielweller-swp/transport-tycoon/tree/master/ex1)     |                                                                                              | 
-|     |    |
-|     |    |
+| [Jakub Konecki](https://github.com/jkonecki) |[C#](https://github.com/jkonecki/SoftwarePark/tree/master/TransportTycoon)                          |      |      |
+| [Peter Fourneau](https://github.com/pfournea) | [Kotlin](https://github.com/pfournea/transport-tycoon)                                            |      |      |
+| [Daniel Weller](https://github.com/danielweller-swp)     | [Scala](https://github.com/danielweller-swp/transport-tycoon/tree/master/ex1)          |      |     | 
+|                                               |                                                                                                   |      |      |
+|                                               |                                                                                                   |      |      |
