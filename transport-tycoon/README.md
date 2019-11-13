@@ -19,5 +19,4 @@ Feel free to link your solutions to this Readme.
 | [azm102](https://github.com/azm102) | [C#](https://github.com/azm102/exercises/tree/master/TransportTycoon1) | | |                                              |                                                                                                   |      |      |
 | [Daniel Mahadi](https://github.com/danielmahadi)                                              | [Go](https://github.com/danielmahadi/transport-tycoon-go/blob/master/main.go)  | | |                                                                                                |      |      |
 | [Bernhard Schauer](https://github.com/beschauer) | [Scala](https://github.com/beschauer/softwarepark-exercises/blob/master/transport-tycoon/main.scala) |      |      |
-|                                               |                                                                                                   |      |      |
-|                                               |                                                                                                   |      |      |
+| [Yanis Urbis](https://github.com/yanisurbis) | [Clojure](https://github.com/yanisurbis/transport-tycoon) |      |      |
