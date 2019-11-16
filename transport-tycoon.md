@@ -58,6 +58,78 @@ When done, feel free to add link to your solution to the [solution list](https:/
 
 ## Exercise 2
 
-To be announced November 13-15. 
+> Audio episode coming November November 19-23
+
+We've got more than 15 solutions at the moment of writing. They are in 9 different languages with completely different implementation styles and architectures. The answers to the problems are also different. 
+
+**That diversity is a good thing**, but it makes difficult to compare the results. It is the time to open up the black-boxes without imposing too much constraints on the implementation details.
+
+Let's modify the solution so that it would log important events in the following format:
+
+- Log entries are in JSON, one JSON object per line
+
+- Optional text comments could start with the #, they are ignored.
+
+We need to **log an entry when the important domain events happen: transport departs and when it arrives**. 
+
+A single line in the log might look like the one below. It is pretty-printed to look nice, normally it would be one line:
+
+```json
+{
+  "event": "DEPART",     # type of log entry: DEPART of ARRIVE
+  "time": 0,             # time in hours
+  "transport_id": 0,     # unique transport id
+  "kind": "TRUCK",       # transport kind
+  "location": "FACTORY", # current location
+  "destination": "PORT", # destination (only for DEPART events)
+  "cargo": [             # array of cargo being carried
+    {
+      "cargo_id": 0,     # unique cargo id
+      "destination": "A",# where should the cargo be delivered
+      "origin": "FACTORY"# where it is originally from
+    }
+  ]
+}
+```
+
+Here is an example event log for the entire `AB` delivery:
+
+```textile
+# Deliver AB
+{"event": "DEPART", "time": 0, "transport_id": 0, "kind": "TRUCK", "location": "FACTORY", "destination": "PORT", "cargo": [{"cargo_id": 0, "destination": "A", "origin": "FACTORY"}]}
+{"event": "DEPART", "time": 0, "transport_id": 1, "kind": "TRUCK", "location": "FACTORY", "destination": "B", "cargo": [{"cargo_id": 1, "destination": "B", "origin": "FACTORY"}]}
+{"event": "ARRIVE", "time": 1, "transport_id": 0, "kind": "TRUCK", "location": "PORT", "cargo": [{"cargo_id": 0, "destination": "A", "origin": "FACTORY"}]}
+{"event": "DEPART", "time": 1, "transport_id": 0, "kind": "TRUCK", "location": "PORT", "destination": "FACTORY"}
+{"event": "DEPART", "time": 1, "transport_id": 2, "kind": "SHIP", "location": "PORT", "destination": "A", "cargo": [{"cargo_id": 0, "destination": "A", "origin": "FACTORY"}]}
+{"event": "ARRIVE", "time": 2, "transport_id": 0, "kind": "TRUCK", "location": "FACTORY"}
+{"event": "ARRIVE", "time": 5, "transport_id": 1, "kind": "TRUCK", "location": "B", "cargo": [{"cargo_id": 1, "destination": "B", "origin": "FACTORY"}]}
+{"event": "DEPART", "time": 5, "transport_id": 1, "kind": "TRUCK", "location": "B", "destination": "FACTORY"}
+{"event": "ARRIVE", "time": 5, "transport_id": 2, "kind": "SHIP", "location": "A", "cargo": [{"cargo_id": 0, "destination": "A", "origin": "FACTORY"}]}
+{"event": "DEPART", "time": 5, "transport_id": 2, "kind": "SHIP", "location": "A", "destination": "PORT"}
+```
+
+Given that file, we could do two things with our event logs:
+
+1. Compare the reasoning of our solution to the reasoning from the another solution (even though they could be in different languages).
+
+2. Feed it to the [trace.py](transport-tycoon/trace/) script that will convert this log to Chrome Trace Viewer format file (also JSON, but a different format). That file could be loaded in Chrome to display the outline of our travel.
+
+Here is how the trace for the `AB` delivery might look like:
+
+![tt-2-tracing-small.png](/Users/rinat/proj/exercises/images/tt-2-tracing-small.png)
+
+You can also search for the cargo to highlight the related transport transfers:
+
+![tt-2-tracing-search.png](/Users/rinat/proj/exercises/images/tt-2-tracing-search.png)
+
+### Task
+
+- **Extend your solution** to output domain events.
+
+- Run the domain event log through the [trace.py](transport-tycoon/trace/) converter and then **display in the Chrome Trace tool**. Does the `AABABBAB` solution look right? Does it complete on the hour 29? What aboout `ABBBABAAABBB`?
+
+## Exercise 3
+
+To be announced November 22-24. 
 
 You can subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark) or just check this repository later.
