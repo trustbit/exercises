@@ -74,7 +74,7 @@ We need to **log an entry when the important domain events happen: transport dep
 
 A single line in the log might look like the one below. It is pretty-printed to look nice, normally it would be one line:
 
-```
+```json
 {
   "event": "DEPART",     # type of log entry: DEPART of ARRIVE
   "time": 0,             # time in hours
@@ -116,17 +116,35 @@ Given that file, we could do two things with our event logs:
 
 Here is how the trace for the `AB` delivery might look like:
 
-![tt-2-tracing-small.png](images/tt-2-tracing-small.png)
+![tt-2-tracing-small.png](/Users/rinat/proj/exercises/images/tt-2-tracing-small.png)
 
 You can also search for the cargo to highlight the related transport transfers:
 
-![tt-2-tracing-search.png](images/tt-2-tracing-search.png)
+![tt-2-tracing-search.png](/Users/rinat/proj/exercises/images/tt-2-tracing-search.png)
+
+
+
+
 
 ### Task
 
-- **Extend your solution** to output domain events.
+- **Extend your solution** to print domain events.
 
-- Run the domain event log through the [trace.py](transport-tycoon/trace/) converter and then **display in the Chrome Trace tool**. Does the `AABABBAB` solution look right? Does it complete on the hour 29? What aboout `ABBBABAAABBB`?
+- Run the domain event log through the [trace.py](transport-tycoon/trace/) converter and then **display in the Chrome Trace tool**. Does the `AABABBAB` solution look right? Does it complete on the hour 29? What about `ABBBABAAABBB`?
+
+- Add a new rules to the code:
+  
+  - **SHIP can take up to 4 containers, but is slower now**:
+    
+    - SHIP takes 1 hour to load cargo
+    
+    - SHIP takes 1 hour to unload cargo
+    
+    - SHIP takes 6 hours to travel in each direction
+  
+  - Add `LOAD` and `UNLOAD` events to the domain output (you define the schema).
+  
+  
 
 ## Exercise 3
 
