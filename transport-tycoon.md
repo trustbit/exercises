@@ -122,8 +122,6 @@ You can also search for the cargo to highlight the related transport transfers:
 
 ![tt-2-tracing-search.png](images/tt-2-tracing-search.png)
 
-
-
 Now that we have tools, we could investigate and debug complex flows. The tooling would also make is easier to introduce more intricate domain details to the code.
 
 ### Task
@@ -144,9 +142,11 @@ Now that we have tools, we could investigate and debug complex flows. The toolin
 
 - Add `LOAD` and `UNLOAD` events to the domain output (you define the schema).
 
-
-
 > trace.py will be updated on November 17 to handle LOAD and UNLOAD events.
+
+### Exercise Notes
+
+- Feel free to add domain logs and rendered trace files alongside your solution and **point to their folder** in the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md) ("*Ex 2*" column). For example, put domain logs for the `AB` scenario into `AB.log`.
 
 ## Exercise 3
 
