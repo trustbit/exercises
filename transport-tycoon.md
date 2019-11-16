@@ -116,11 +116,11 @@ Given that file, we could do two things with our event logs:
 
 Here is how the trace for the `AB` delivery might look like:
 
-![tt-2-tracing-small.png](/Users/rinat/proj/exercises/images/tt-2-tracing-small.png)
+![tt-2-tracing-small.png](images/tt-2-tracing-small.png)
 
 You can also search for the cargo to highlight the related transport transfers:
 
-![tt-2-tracing-search.png](/Users/rinat/proj/exercises/images/tt-2-tracing-search.png)
+![tt-2-tracing-search.png](images/tt-2-tracing-search.png)
 
 ### Task
 
