@@ -13,7 +13,3 @@ Domain-Driven Design (and the attention to the software design in general) is on
 We want to **spread the DDD ideas, experience and insights within the company**. To help with that, we are starting a short series of exercises, accompanied with a mini podcast. 
 
 While doing that we will keep exercises public and transparent. Perhaps, somebody else would find them helpful or entertaining.
-
-
-
-
