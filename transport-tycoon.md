@@ -124,7 +124,7 @@ You can also search for the cargo to highlight the related transport transfers:
 
 
 
-
+Now that we have tools, we could investigate and debug complex flows. The tooling would also make is easier to introduce more intricate domain details to the code.
 
 ### Task
 
@@ -141,10 +141,12 @@ You can also search for the cargo to highlight the related transport transfers:
     - SHIP takes 1 hour to unload cargo
     
     - SHIP takes 6 hours to travel in each direction
-  
-  - Add `LOAD` and `UNLOAD` events to the domain output (you define the schema).
-  
-  
+
+- Add `LOAD` and `UNLOAD` events to the domain output (you define the schema).
+
+
+
+> trace.py will be updated on November 17 to handle LOAD and UNLOAD events.
 
 ## Exercise 3
 
