@@ -74,7 +74,7 @@ We need to **log an entry when the important domain events happen: transport dep
 
 A single line in the log might look like the one below. It is pretty-printed to look nice, normally it would be one line:
 
-```json
+```
 {
   "event": "DEPART",     # type of log entry: DEPART of ARRIVE
   "time": 0,             # time in hours
