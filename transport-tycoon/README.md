@@ -20,3 +20,4 @@ Feel free to link your solutions to this Readme.
 | [Yanis Urbis](https://github.com/yanisurbis)         | [Clojure](https://github.com/yanisurbis/transport-tycoon)                                            |      |      |
 | [Anatoly Kulakov](https://github.com/AnatolyKulakov) | [C#](https://github.com/AnatolyKulakov/TransportTycoon/blob/master/src/TransportTycoon/Program.cs)   |      |      |
 | [Gildas Quéméner](https://github.com/gquemener)      | [PHP](https://github.com/gquemener/TransportTycoon)                                                  |      |      |
+| [Daniel Le Berre](https://github.com/danielleberre) | [Java](https://github.com/danielleberre/transport-tycoon) |      |      |
