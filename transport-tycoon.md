@@ -134,9 +134,9 @@ Now that we have tools, we could investigate and debug complex flows. The toolin
   
   - **SHIP can take up to 4 containers, but is slower now**:
     
-    - SHIP takes 1 hour to load cargo
+    - SHIP takes 1 hour to load *all* cargo
     
-    - SHIP takes 1 hour to unload cargo
+    - SHIP takes 1 hour to unload *all* cargo
     
     - SHIP takes 6 hours to travel in each direction
 
