@@ -12,7 +12,7 @@ Feel free to link your solutions to this Readme.
 
 3. [Markus Ketzer](https://github.com/marketzer)
    
-   - Exercise 1: [Python](https://github.com/Softwarepark/exercises/tree/master/transport-tycoon/marketzer)
+   - Exercise 1: [Python](https://github.com/marketzer/exercises/blob/master/transport-tycoon/marketzer/transport-tycoon.py)
 
 4. [Rinat Abdullin](https://github.com/abdullin)
    
