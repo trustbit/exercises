@@ -21,3 +21,4 @@ Feel free to link your solutions to this Readme.
 | [Anatoly Kulakov](https://github.com/AnatolyKulakov) | [C#](https://github.com/AnatolyKulakov/TransportTycoon/blob/master/src/TransportTycoon/Program.cs)   |      |      |
 | [Gildas Quéméner](https://github.com/gquemener)      | [PHP](https://github.com/gquemener/TransportTycoon)                                                  |      |      |
 | [Clément Bouillier](https://twitter.com/clem_bouillier)| [F#](https://github.com/devcrafting/TransportTycoon-DDD-ES/tree/Exercice1)                        |      |      |
+| [Wojtek Suwała](https://github.com/wojteksuwala)     | [C#](https://github.com/wojteksuwala/DDD_SoftwarePark_Exercises/tree/master/Ex001_Transport_Tycoon)  |      |      |
