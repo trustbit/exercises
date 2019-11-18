@@ -65,6 +65,7 @@ Feel free to link your solutions to this Readme.
 16. [Gildas Quéméner](https://github.com/gquemener)
     
     - Exercise 1: [PHP](https://github.com/gquemener/TransportTycoon)
+    - Exercise 2: [Traces directory](https://github.com/gquemener/TransportTycoon/tree/master/traces)
 
 17. [Daniel Le Berre](https://github.com/danielleberre)
     
