@@ -29,6 +29,7 @@ Feel free to link your solutions to this Readme.
 6. [Mark Pattison](https://github.com/markpattison)
    
    - Exercise 1: [F#](https://github.com/markpattison/transport-tycoon-kata)
+   - Exercise 2: [Logs](https://github.com/markpattison/transport-tycoon-kata/tree/master/exercise2-logs)
 
 7. [Christian Folie](https://twitter.com/Folienmaster)
    
