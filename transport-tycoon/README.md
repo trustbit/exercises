@@ -32,7 +32,7 @@ Feel free to link your solutions to this Readme.
 
 7. [Christian Folie](https://twitter.com/Folienmaster)
    
-   - Exercise 1: [F#](https://github.com/Nagelfar/exercises/blob/master/transport-tycoon/cfolie/Exercise1.fs)
+   - Exercise 1: [F#](https://github.com/Nagelfar/ddd-exercises/tree/master/exercise1)
 
 8. [Jakub Konecki](https://github.com/jkonecki)
    
