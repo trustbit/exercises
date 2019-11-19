@@ -8,7 +8,7 @@ Feel free to link your solutions to this Readme.
 
 2. [Aigiz Kunafin](https://github.com/AigizK)
    
-   - Exercise 1: [Python](https://github.com/Softwarepark/exercises/tree/master/transport-tycoon/aigizk)
+   - Exercise 1: [Python](https://github.com/AigizK/transport-tycoon/tree/master/ex_1)
 
 3. [Markus Ketzer](https://github.com/marketzer)
    
