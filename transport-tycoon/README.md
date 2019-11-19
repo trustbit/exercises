@@ -64,6 +64,7 @@ Feel free to link your solutions to this Readme.
 
 16. [Gildas Quéméner](https://github.com/gquemener)
     
+    - Design: [Event-storming](https://miro.com/welcomeonboard/MtjvR60cUsVfwMSGWhbsOtrxgMOlSeXjFYc1U2M8033aIuIQdb9ID72hbcNNsfi8)
     - Exercise 1: [PHP](https://github.com/gquemener/TransportTycoon)
     - Exercise 2: [Traces directory](https://github.com/gquemener/TransportTycoon/tree/master/traces)
 
@@ -78,5 +79,3 @@ Feel free to link your solutions to this Readme.
 19. [Wojtek Suwała](https://github.com/wojteksuwala)
     
     - Exercise 1: [C#](https://github.com/wojteksuwala/DDD_SoftwarePark_Exercises/tree/master/Ex001_Transport_Tycoon)
-
-
