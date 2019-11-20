@@ -79,7 +79,9 @@ Feel free to link your solutions to this Readme.
 
 18. [Clément Bouillier](https://twitter.com/clem_bouillier)
     
+    - I added some thoughts in [readme](https://github.com/devcrafting/TransportTycoon-DDD-ES), would be happy to discuss them
     - Exercise 1: [F#](https://github.com/devcrafting/TransportTycoon-DDD-ES/tree/Exercice1)
+    - Exercise 2: [Traces directory](https://github.com/devcrafting/TransportTycoon-DDD-ES/tree/Exercice2-withoutNewRules/logs)
 
 19. [Wojtek Suwała](https://github.com/wojteksuwala)
     
