@@ -83,3 +83,8 @@ Feel free to link your solutions to this Readme.
 19. [Wojtek Suwała](https://github.com/wojteksuwala)
     
     - Exercise 1: [C#](https://github.com/wojteksuwala/DDD_SoftwarePark_Exercises/tree/master/Ex001_Transport_Tycoon)
+    
+20. [Peter Szarvas](https://github.com/pepperonee13)
+
+    - Exercise 1: [C#](https://github.com/pepperonee13/ddd-exercises)
+    - Exercise 2: [Traces directory](https://github.com/pepperonee13/ddd-exercises/tree/master/.trace) (_without slower ship_)
