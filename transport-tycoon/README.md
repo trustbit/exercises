@@ -91,3 +91,7 @@ Feel free to link your solutions to this Readme.
 
     - Exercise 1: [C#](https://github.com/pepperonee13/ddd-exercises)
     - Exercise 2: [Traces directory](https://github.com/pepperonee13/ddd-exercises/tree/master/.trace) (_without slower ship_)
+
+21. [Thomas Eyde](https://github.com/thomaseyde)
+
+    - Exercise 1: [C#](https://github.com/thomaseyde/transport-tycoon)
