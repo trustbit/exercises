@@ -4,8 +4,6 @@ Feel free to link your solutions to this Readme.
 
 > **Discussions** about the solutions are located in the  [gitub discussions](https://github.com/orgs/ddd-exercises/teams/tt/discussions). Everybody who has sent a PR for any of the exercises, will be getting an invitation to the discussion team. If you haven't sent a code, but want to join anyway - please get in touch by opening an issue.
 
-
-
 1. [Ian Russell](https://github.com/ijrussell)
    
    - Exercise 1: [F#](https://github.com/ijrussell/TransportTycoon/blob/master/recursive.fs)
