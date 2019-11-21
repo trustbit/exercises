@@ -4,8 +4,6 @@ Feel free to link your solutions to this Readme.
 
 > **Discussions** about the solutions are located in the  [gitub discussions](https://github.com/orgs/ddd-exercises/teams/tt/discussions). Everybody who has sent a PR for any of the exercises, will be getting an invitation to the discussion team. If you haven't sent a code, but want to join anyway - please get in touch by opening an issue.
 
-
-
 1. [Ian Russell](https://github.com/ijrussell)
    
    - Exercise 1: [F#](https://github.com/ijrussell/TransportTycoon/blob/master/recursive.fs)
@@ -21,6 +19,7 @@ Feel free to link your solutions to this Readme.
 4. [Rinat Abdullin](https://github.com/abdullin)
    
    - Exercise 1: [Python](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/abdullin/ex_1.py)
+   - Exercise 2: [Python](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/abdullin/ex_2.py) (doesn't deal with the loading race condition, yet)
 
 5. [Michael Roth](https://github.com/mrothNET)
    
@@ -86,16 +85,16 @@ Feel free to link your solutions to this Readme.
 19. [Wojtek Suwała](https://github.com/wojteksuwala)
     
     - Exercise 1: [C#](https://github.com/wojteksuwala/DDD_SoftwarePark_Exercises/tree/master/Ex001_Transport_Tycoon)
-    
-20. [Peter Szarvas](https://github.com/pepperonee13)
 
+20. [Peter Szarvas](https://github.com/pepperonee13)
+    
     - Exercise 1: [C#](https://github.com/pepperonee13/ddd-exercises)
     - Exercise 2: [Traces directory](https://github.com/pepperonee13/ddd-exercises/tree/master/.trace) (_without slower ship_)
 
 21. [Thomas Eyde](https://github.com/thomaseyde)
-
+    
     - Exercise 1: [C#](https://github.com/thomaseyde/transport-tycoon)
 
 22. [Amro El-Fakharany](https://github.com/amroel)
-
+    
     - Exercise 1: [C#](https://github.com/amroel/TransportTycoon/tree/E1)
