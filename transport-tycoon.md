@@ -132,13 +132,15 @@ Now that we have tools, we could investigate and debug complex flows. The toolin
 
 - Add a new rules to the code:
   
-  - **SHIP can take up to 4 containers, but is slower now**:
+  - **Ship can take up to 4 containers, but is slower now**:
     
-    - SHIP takes 1 hour to load *all* cargo
+    - Ship takes 1 hour to load *all* cargo
     
-    - SHIP takes 1 hour to unload *all* cargo
+    - Ship takes 1 hour to unload *all* cargo
     
-    - SHIP takes 6 hours to travel in each direction
+    - Ship takes 6 hours to travel in each direction
+    
+    - Note, that ship doesn't wait to be full in order to DEPART. It just LOADs the available cargo and leaves.
 
 - Add `LOAD` and `UNLOAD` events to the domain output (you define the schema).
 
