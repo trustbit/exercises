@@ -95,3 +95,7 @@ Feel free to link your solutions to this Readme.
 21. [Thomas Eyde](https://github.com/thomaseyde)
 
     - Exercise 1: [C#](https://github.com/thomaseyde/transport-tycoon)
+
+22. [Amro El-Fakharany](https://github.com/amroel)
+
+    - Exercise 1: [C#](https://github.com/amroel/TransportTycoon/tree/E1)
