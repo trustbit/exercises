@@ -58,7 +58,7 @@ When done, feel free to add link to your solution to the [solution list](https:/
 
 ## Exercise 2
 
-> Audio episode coming November November 19-23
+> There is a [second podcast episode](https://storage.googleapis.com/swp-podcast/ethos/swp-ethos-podcast-02.mp3) in which Peter and Rinat share thoughts about first exercise and move forward to the second one.
 
 We've got more than 15 solutions at the moment of writing. They are in 9 different languages with completely different implementation styles and architectures. The answers to the problems are also different. 
 
@@ -152,6 +152,8 @@ Now that we have tools, we could investigate and debug complex flows. The toolin
 
 ## Exercise 3
 
-To be announced November 22-24. 
+The second exercise turned out to be larger than expected, so we are slowing down before publishing the third one. Exercise 3 is to be announced on November 27-29.
+
+
 
 You can subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark) or just check this repository later.
