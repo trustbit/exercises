@@ -53,6 +53,15 @@ with open(input_file, 'rt') as log:
             headers.update({ 'ph': 'E'})
 
             events.append(headers)
+        if kind == 'LOAD' or kind == 'UNLOAD':
+            if not e['duration']:
+                continue
+
+            headers = extract_common_headers(e)
+            headers.update({'ph': 'X', 'dur':e['duration'], 'name':kind})
+            events.append(headers)
+
+
 
 
     print(json.dumps({"displayTimeUnit": "ms", 'traceEvents': events, }, indent=True))
