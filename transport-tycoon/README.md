@@ -34,6 +34,8 @@ Feel free to link your solutions to this Readme.
 7. [Christian Folie](https://twitter.com/Folienmaster)
    
    - Exercise 1: [F#](https://github.com/Nagelfar/ddd-exercises/tree/master/exercise1)
+   - Exercise 2: [F#](https://github.com/Nagelfar/ddd-exercises/blob/master/exercise2/Exercise2.fs)
+   - Exercise 2: [Logs](https://github.com/Nagelfar/ddd-exercises/tree/master/exercise2/output)
 
 8. [Jakub Konecki](https://github.com/jkonecki)
    
