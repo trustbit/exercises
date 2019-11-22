@@ -15,6 +15,7 @@ Feel free to link your solutions to this Readme.
 3. [Markus Ketzer](https://github.com/marketzer)
    
    - Exercise 1: [Python](https://github.com/marketzer/exercises/blob/master/transport-tycoon/marketzer/transport-tycoon.py)
+   - Exercise 2: [Python](https://github.com/marketzer/exercises/blob/master/transport-tycoon/marketzer/exercise2.py)
 
 4. [Rinat Abdullin](https://github.com/abdullin)
    
