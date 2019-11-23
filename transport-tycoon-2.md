@@ -102,7 +102,7 @@ _ABBBABAAABBB_
 
 ## Exercise Notes
 
-- Feel free to add domain logs and rendered trace files alongside your solution and **point to their folder** in the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md) ("*Ex 2*" column). For example, put domain logs for the `AB` scenario into `AB.log`. Solution list already has some reference images
+- Feel free to add domain logs and rendered trace files alongside your solution and **point to their folder** in the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md) ("*Ex 2*" column). For example, put domain logs for the `AB` scenario into `AB.log`. Solution list already has some references.
 - Check out the [exercise discussions](https://github.com/orgs/ddd-exercises/teams/tt/discussions).
 
 ## Next
