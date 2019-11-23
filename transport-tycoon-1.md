@@ -6,7 +6,7 @@
 
 There is a map containing a Factory, Port, Warehouse A and Warehouse B. Factory has a small stock of containers that have to be delivered to these warehouses.
 
-![tt-1-exercise.png](/Users/rinat/proj/exercises/images/tt-1-exercise.png)
+![tt-1-exercise.png](images/tt-1-exercise.png)
 
 There are **two trucks and one ship that can carry one container at a time** (trucks start at Factory, ship starts at the Port).
 
