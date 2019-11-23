@@ -86,6 +86,7 @@ Feel free to link your solutions to this Readme.
 19. [Wojtek Suwała](https://github.com/wojteksuwala)
     
     - Exercise 1: [C#](https://github.com/wojteksuwala/DDD_SoftwarePark_Exercises/tree/master/Ex001_Transport_Tycoon)
+    - Exercise 2: [C#](https://github.com/wojteksuwala/DDD_SoftwarePark_Exercises/tree/master/Ex002_Transport_Tycoon)
 
 20. [Peter Szarvas](https://github.com/pepperonee13)
     
