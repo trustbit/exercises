@@ -90,10 +90,6 @@ Now that we have tools, we could investigate and debug complex flows. The toolin
 
 
 
-## Exercise Notes
-
-- Feel free to add domain logs and rendered trace files alongside your solution and **point to their folder** in the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md) ("*Ex 2*" column). For example, put domain logs for the `AB` scenario into `AB.log`.
-
 ## Reference Traces
 
 We are including reference traces so that you could compare your simulation results.
@@ -103,6 +99,11 @@ We are including reference traces so that you could compare your simulation resu
 _ABBBABAAABBB_
 
 ![tt-2-ABBBABAAABBB.png](images/tt-2-ABBBABAAABBB.png)
+
+## Exercise Notes
+
+- Feel free to add domain logs and rendered trace files alongside your solution and **point to their folder** in the [solution list](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md) ("*Ex 2*" column). For example, put domain logs for the `AB` scenario into `AB.log`. Solution list already has some reference images
+- Check out the [exercise discussions](https://github.com/orgs/ddd-exercises/teams/tt/discussions).
 
 ## Next
 
