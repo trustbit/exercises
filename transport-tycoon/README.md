@@ -11,6 +11,7 @@ Feel free to link your solutions to this Readme.
 2. [Aigiz Kunafin](https://github.com/AigizK)
    
    - Exercise 1: [Python](https://github.com/AigizK/transport-tycoon/tree/master/ex_1)
+   - Event log visualizer: [HTML+JS](https://github.com/AigizK/transport-tycoon/tree/master/transport_visulazation)
 
 3. [Markus Ketzer](https://github.com/marketzer)
    
