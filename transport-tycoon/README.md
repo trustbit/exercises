@@ -20,7 +20,7 @@ Feel free to link your solutions to this Readme.
 4. [Rinat Abdullin](https://github.com/abdullin)
    
    - Exercise 1: [Python](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/abdullin/ex_1.py)
-   - Exercise 2: [Python](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/abdullin/ex_2.py) (doesn't deal with the loading race condition, yet)
+   - Exercise 2: [Python](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/abdullin/ex_2.py)
 
 5. [Michael Roth](https://github.com/mrothNET)
    
