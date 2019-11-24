@@ -78,7 +78,8 @@ Feel free to link your solutions to this Readme.
 
 17. [Daniel Le Berre](https://github.com/danielleberre)
     
-    - Exercise 1: [Java](https://github.com/danielleberre/transport-tycoon)
+    - Exercise 1: [Java](https://github.com/danielleberre/transport-tycoon/tree/exercice1)
+    - Exercise 2: [Java](https://github.com/danielleberre/transport-tycoon/tree/exercice2)
 
 18. [Clément Bouillier](https://twitter.com/clem_bouillier)
     
