@@ -25,7 +25,8 @@ Feel free to link your solutions to this Readme.
 
 5. [Michael Roth](https://github.com/mrothNET)
    
-   - Exercise 1: [TypeScript](https://github.com/mrothNET/transport-tycoon-exercises)
+   - Exercise 1: [TypeScript](https://github.com/mrothNET/transport-tycoon-exercises/tree/master/exercise1)
+   - Exercise 2: [TypeScript](https://github.com/mrothNET/transport-tycoon-exercises/tree/master/exercise2)
 
 6. [Mark Pattison](https://github.com/markpattison)
    
