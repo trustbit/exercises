@@ -105,6 +105,7 @@ Feel free to link your solutions to this Readme.
 22. [Amro El-Fakharany](https://github.com/amroel)
     
     - Exercise 1: [C#](https://github.com/amroel/TransportTycoon/tree/E1)
+	- Exercise 2: [C#](https://github.com/amroel/TransportTycoon/tree/E2) [Traces] (https://github.com/amroel/TransportTycoon/tree/E2/.trace)
 
 23. [Ivan Milosavljevic](https://github.com/Vertygo)
     
