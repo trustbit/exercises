@@ -20,7 +20,7 @@ A single line in the log might look like the one below. It is pretty-printed to 
 
 ```textile
 {
-  "event": "DEPART",     # type of log entry: DEPART of ARRIVE
+  "event": "DEPART",     # type of log entry: DEPART or ARRIVE
   "time": 0,             # time in hours
   "transport_id": 0,     # unique transport id
   "kind": "TRUCK",       # transport kind
