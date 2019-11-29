@@ -114,4 +114,7 @@ Feel free to link your solutions to this Readme.
 24. [Manvel Ghazaryan](https://github.com/gmanvel)
     - Exercise 1: [C#](https://github.com/gmanvel/TransportTycoon/tree/Exercise-1)
     - Exercise 2: [C#](https://github.com/gmanvel/TransportTycoon/tree/Exercise-2), [Traces](https://github.com/gmanvel/TransportTycoon/tree/Exercise-2/tests/TransportTycoon.Domain.Tests/traces)
-     
+
+25. [Tonino Lucca](https://github.com/tonyx)
+    - Exercise 1: [F#](https://github.com/tonyx/transport-tycoon-1)
+    
