@@ -110,3 +110,8 @@ Feel free to link your solutions to this Readme.
 23. [Ivan Milosavljevic](https://github.com/Vertygo)
     
     - Exercise 1: [C#](https://github.com/Vertygo/transport-tycoon-ddd/tree/master/Exercise1)
+
+24. [Manvel Ghazaryan](https://github.com/gmanvel)
+    - Exercise 1: [C#](https://github.com/gmanvel/TransportTycoon/tree/Exercise-1)
+    - Exercise 2: [C#](https://github.com/gmanvel/TransportTycoon/tree/Exercise-2), [Traces](https://github.com/gmanvel/TransportTycoon/tree/Exercise-2/tests/TransportTycoon.Domain.Tests/traces)
+     
