@@ -88,8 +88,6 @@ Now that we have tools, we could investigate and debug complex flows. The toolin
 
 - Add `LOAD` and `UNLOAD` events to the domain output. They have similar schema as `ARRIVE`, are published at the beginning of the operation and have  `duration` field (`0` for TRUCK and `1` for the SHIP)
 
-
-
 ## Reference Traces
 
 We are including reference traces so that you could compare your simulation results.
@@ -107,6 +105,4 @@ _ABBBABAAABBB_
 
 ## Next
 
-The second exercise turned out to be larger than expected, so we are slowing down before publishing the third one. Exercise 3 is to be announced on November 27-29.
-
-You can subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark) or just check this repository later.
+[Exercise 3](transport-tycoon-3.md) is available!
