@@ -51,9 +51,10 @@ Feel free to link your solutions to this Readme.
     
     - Exercise 1: [Scala](https://github.com/danielweller-swp/transport-tycoon/tree/master/ex1)
 
-11. [azm102](https://github.com/azm102)
+11. [Azamat Aminev](https://github.com/azm102)
     
     - Exercise 1: [C#](https://github.com/azm102/exercises/tree/master/TransportTycoon1)
+    - Exercise 2: [C#](https://github.com/azm102/exercises/tree/master/TransportTycoon2), [Traces](https://github.com/azm102/exercises/tree/master/TransportTycoon2/Traces)
 
 12. [Daniel Mahadi](https://github.com/danielmahadi)
     
