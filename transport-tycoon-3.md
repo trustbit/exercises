@@ -20,6 +20,8 @@ First of all, **our event logging is a simple form of publishing domain events**
 
 - changes in the domain behavior may enrich, but don't break existing event log format; we've observed that while introducing complexity to the SHIP.
 
+There is also another visualization implementation that builds up on the domain events. It is done by [Aigiz Kunafin](https://github.com/AigizK/) in [HTML+JS](https://github.com/AigizK/transport-tycoon/blob/master/transport_visulazation/index.html). 
+
 Second, **the domain language found its way into each and every codebase**, even though we didn't mention any coding patterns. Regardless, of the implementation language, exercise solutions would make sense to anybody familiar with the domain. 
 
 Take a list at a few snippets from the [list of solutions](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md).
@@ -162,6 +164,6 @@ In fact, let us do exactly that. Lets practice a little bit of TDD/BDD and **rew
 
 ## Next
 
-Exercise 4 is to be announced on December 7-14.
+Exercise 4 is to be announced on *December 7-14*.
 
 You can subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark) or just check this repository later.
