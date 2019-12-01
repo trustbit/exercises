@@ -68,8 +68,9 @@ Feel free to link your solutions to this Readme.
     - Exercise 1: [Clojure](https://github.com/yanisurbis/transport-tycoon)
 
 15. [Anatoly Kulakov](https://github.com/AnatolyKulakov)
-    
-    - Exercise 1: [C#](https://github.com/AnatolyKulakov/TransportTycoon/blob/master/src/TransportTycoon/Program.cs)
+
+    - Exercise 1: [C#](https://github.com/AnatolyKulakov/TransportTycoon/blob/ex1/src/TransportTycoon/Program.cs)
+    - Exercise 2: [C#](https://github.com/AnatolyKulakov/TransportTycoon/blob/ex2/src/TransportTycoon/Program.cs), [Traces](https://github.com/AnatolyKulakov/TransportTycoon/tree/ex2/trace)
 
 16. [Gildas Quéméner](https://github.com/gquemener)
     
