@@ -67,7 +67,7 @@ public void Unload()
 }
 ```
 
-[Go](https://github.com/danielmahadi/transport-tycoon-go/blob/master/main.go#L99-L108) by Daniel Mahadi:
+[Go](https://github.com/danielmahadi/transport-tycoon-go/blob/exercises/1/main.go#L99-L108) by Daniel Mahadi:
 
 ```go
 plan := Plan {
