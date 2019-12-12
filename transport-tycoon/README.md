@@ -125,5 +125,6 @@ Feel free to link your solutions to this Readme.
         
 27. [Digi Mortl](https://github.com/digimortl)
 
-    - Exercise 1 and 2: [Pyhton](https://github.com/digimortl/transport-tycoon)
+    - Exercise 1: [Pyhton](https://github.com/digimortl/transport-tycoon/tree/203e97ec2e2c876e4739cd6b4426b76762f1bdfe)
+    - Exercise 2: [Pyhton](https://github.com/digimortl/transport-tycoon/tree/94e24d61d646ec1d969864b1e0f2f991fbd10674), [Traces](https://github.com/digimortl/transport-tycoon/tree/master/traces)
 
