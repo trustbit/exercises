@@ -123,4 +123,7 @@ Feel free to link your solutions to this Readme.
 26. [Mark Woodworth](https://github.com/Solaxun)
     - Exercise 1: [Clojure](https://github.com/Solaxun/transport-tycoon-kata/blob/master/src/transport_tycoon_kata/transport.clj)
         
-    
+27. [Digi Mortl](https://github.com/digimortl)
+
+    - Exercise 1 and 2: [Pyhton](https://github.com/digimortl/transport-tycoon)
+
