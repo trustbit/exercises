@@ -58,7 +58,8 @@ Feel free to link your solutions to this Readme.
 
 12. [Daniel Mahadi](https://github.com/danielmahadi)
     
-    - Exercise 1: [Go](https://github.com/danielmahadi/transport-tycoon-go/blob/master/main.go)
+    - Exercise 1: [Go](https://github.com/danielmahadi/transport-tycoon-go/blob/exercises/1/main.go)
+    - Exercise 2: [Go](https://github.com/danielmahadi/transport-tycoon-go/blob/exercises/2/main.go)
 
 13. [Bernhard Schauer](https://github.com/beschauer)
     
