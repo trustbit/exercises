@@ -130,3 +130,5 @@ Feel free to link your solutions to this Readme.
     - Exercise 2: [Pyhton](https://github.com/digimortl/transport-tycoon/tree/94e24d61d646ec1d969864b1e0f2f991fbd10674), [Traces](https://github.com/digimortl/transport-tycoon/tree/master/traces)
     - Exercise 3: [Go](https://github.com/digimortl/tycoon), [Traces](https://github.com/digimortl/tycoon/tree/master/traces)
 
+28. [Philip Schmitt](https://github.com/maeh2k)
+    - Exercise 1: [F#](https://github.com/maeh2k/transport-tycoon-kata/blob/master/Exercise1.fsx)
