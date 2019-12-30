@@ -134,3 +134,6 @@ Feel free to link your solutions to this Readme.
     - Exercise 1: [F#](https://github.com/maeh2k/transport-tycoon-kata/blob/master/Exercise1.fsx)
     - Exercise 2: [F#](https://github.com/maeh2k/transport-tycoon-kata/blob/master/Exercise2.fsx)
     - Exercise 2: [Logs](https://github.com/maeh2k/transport-tycoon-kata/tree/master/logs)
+
+29. [Tarasenko Sergey](https://github.com/krasina15)
+    - Exercise 1: [Pyhton](https://github.com/krasina15/transport-tycoon)
