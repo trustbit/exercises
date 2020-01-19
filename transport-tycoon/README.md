@@ -22,6 +22,7 @@ Feel free to link your solutions to this Readme.
    
    - Exercise 1: [Python](https://github.com/abdullin/softwarepark-ddd/blob/master/transport-tycoon/ex_1.py)
    - Exercise 2: [Python](https://github.com/abdullin/softwarepark-ddd/blob/master/transport-tycoon/ex_2.py)
+   - Exercise 3: [Go](https://github.com/abdullin/softwarepark-ddd/blob/master/transport-tycoon/ex_3.go)
 
 5. [Michael Roth](https://github.com/mrothNET)
    
