@@ -138,3 +138,8 @@ Feel free to link your solutions to this Readme.
 
 29. [Tarasenko Sergey](https://github.com/krasina15)
     - Exercise 1: [Pyhton](https://github.com/krasina15/transport-tycoon)
+    
+30. [Dmitry Naumov](https://github.com/DmitryNaumov)
+
+    - Exercise 1: [C#](https://github.com/DmitryNaumov/TransportTycoon/tree/Exercise1)
+
