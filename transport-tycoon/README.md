@@ -127,8 +127,8 @@ Feel free to link your solutions to this Readme.
         
 27. [Digi Mortl](https://github.com/digimortl)
 
-    - Exercise 1: [Pyhton](https://github.com/digimortl/transport-tycoon/tree/203e97ec2e2c876e4739cd6b4426b76762f1bdfe)
-    - Exercise 2: [Pyhton](https://github.com/digimortl/transport-tycoon/tree/94e24d61d646ec1d969864b1e0f2f991fbd10674), [Traces](https://github.com/digimortl/transport-tycoon/tree/master/traces)
+    - Exercise 1: [Python](https://github.com/digimortl/transport-tycoon/tree/203e97ec2e2c876e4739cd6b4426b76762f1bdfe)
+    - Exercise 2: [Python](https://github.com/digimortl/transport-tycoon/tree/94e24d61d646ec1d969864b1e0f2f991fbd10674), [Traces](https://github.com/digimortl/transport-tycoon/tree/master/traces)
     - Exercise 3: [Go](https://github.com/digimortl/tycoon), [Traces](https://github.com/digimortl/tycoon/tree/master/traces)
 
 28. [Philip Schmitt](https://github.com/maeh2k)
@@ -137,9 +137,13 @@ Feel free to link your solutions to this Readme.
     - Exercise 2: [Logs](https://github.com/maeh2k/transport-tycoon-kata/tree/master/logs)
 
 29. [Tarasenko Sergey](https://github.com/krasina15)
-    - Exercise 1: [Pyhton](https://github.com/krasina15/transport-tycoon)
+    - Exercise 1: [Python](https://github.com/krasina15/transport-tycoon)
     
 30. [Dmitry Naumov](https://github.com/DmitryNaumov)
 
     - Exercise 1: [C#](https://github.com/DmitryNaumov/TransportTycoon/tree/Exercise1)
 
+31. [Julien Adam](https://github.com/julienadam)
+    - Exercise 1: [F#](https://github.com/julienadam/transport-tycoon-kata/blob/master/TransportTycoon.Kata.Exercises/Exercise1.fsx)
+    - Exercise 2: [F#](https://github.com/julienadam/transport-tycoon-kata/blob/master/TransportTycoon.Kata.Exercises/Exercise2.fsx)
+    - Exercise 2: [Logs](https://github.com/julienadam/transport-tycoon-kata/tree/master/TransportTycoon.Kata.Exercises/output)
