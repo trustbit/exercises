@@ -147,3 +147,6 @@ Feel free to link your solutions to this Readme.
     - Exercise 1: [F#](https://github.com/julienadam/transport-tycoon-kata/blob/master/TransportTycoon.Kata.Exercises/Exercise1.fsx)
     - Exercise 2: [F#](https://github.com/julienadam/transport-tycoon-kata/blob/master/TransportTycoon.Kata.Exercises/Exercise2.fsx)
     - Exercise 2: [Logs](https://github.com/julienadam/transport-tycoon-kata/tree/master/TransportTycoon.Kata.Exercises/output)
+
+32. [Jalil Arfaoui](https://jalil.arfaoui.net)
+    - Exercise 1: [TypeScript](https://framagit.org/jalil/transport-tycoon-kata-js)
