@@ -150,3 +150,7 @@ Feel free to link your solutions to this Readme.
 
 32. [Jalil Arfaoui](https://jalil.arfaoui.net)
     - Exercise 1: [TypeScript](https://framagit.org/jalil/transport-tycoon-kata-js)
+
+33. [Klaus Bayrhammer](https://github.com/klausbayrhammer)
+    - Exercise 1: [Typescript](https://github.com/klausbayrhammer/typescript-transport-tycoon-kata/blob/master/src/transport-tycoon.ts) (without global state)
+    - Exercise 1: [Typescript](https://github.com/klausbayrhammer/typescript-transport-tycoon-kata/blob/global-state/src/transport-tycoon.ts) (with global state)
