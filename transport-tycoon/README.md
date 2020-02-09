@@ -148,6 +148,9 @@ Feel free to link your solutions to this Readme.
     - Exercise 2: [F#](https://github.com/julienadam/transport-tycoon-kata/blob/master/TransportTycoon.Kata.Exercises/Exercise2.fsx)
     - Exercise 2: [Logs](https://github.com/julienadam/transport-tycoon-kata/tree/master/TransportTycoon.Kata.Exercises/output)
 
-32. [Klaus Bayrhammer](https://github.com/klausbayrhammer)
+32. [Jalil Arfaoui](https://jalil.arfaoui.net)
+    - Exercise 1: [TypeScript](https://framagit.org/jalil/transport-tycoon-kata-js)
+
+33. [Klaus Bayrhammer](https://github.com/klausbayrhammer)
     - Exercise 1: [Typescript](https://github.com/klausbayrhammer/typescript-transport-tycoon-kata/blob/master/src/transport-tycoon.ts) (without global state)
     - Exercise 1: [Typescript](https://github.com/klausbayrhammer/typescript-transport-tycoon-kata/blob/global-state/src/transport-tycoon.ts) (with global state)
