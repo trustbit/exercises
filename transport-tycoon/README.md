@@ -157,3 +157,6 @@ Feel free to link your solutions to this Readme.
 
 34. [Yuri Passamonti](https://github.com/r4ncid)
     - Exercise 1: [Scala](https://github.com/R4ncid/transport-tycoon-kata)
+    
+35. [Jasper Uyttebroek](https://github.com/unib1t)
+    - Exercise 1: [TypeScript](https://github.com/unib1t/transport-tycoon-ddd)
