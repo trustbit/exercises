@@ -154,7 +154,9 @@ Feel free to link your solutions to this Readme.
 33. [Klaus Bayrhammer](https://github.com/klausbayrhammer)
     - Exercise 1: [Typescript](https://github.com/klausbayrhammer/typescript-transport-tycoon-kata/blob/master/src/transport-tycoon.ts) (without global state)
     - Exercise 1: [Typescript](https://github.com/klausbayrhammer/typescript-transport-tycoon-kata/blob/global-state/src/transport-tycoon.ts) (with global state)
-    
-34. [Jasper Uyttebroek](https://github.com/unib1t)
-    - Exercise 1: [TypeScript](https://github.com/unib1t/transport-tycoon-ddd)
 
+34. [Yuri Passamonti](https://github.com/r4ncid)
+    - Exercise 1: [Scala](https://github.com/R4ncid/transport-tycoon-kata)
+    
+35. [Jasper Uyttebroek](https://github.com/unib1t)
+    - Exercise 1: [TypeScript](https://github.com/unib1t/transport-tycoon-ddd)
