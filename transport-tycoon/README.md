@@ -160,3 +160,6 @@ Feel free to link your solutions to this Readme.
     
 35. [Jasper Uyttebroek](https://github.com/unib1t)
     - Exercise 1: [TypeScript](https://github.com/unib1t/transport-tycoon-ddd)
+
+36. [Marco Perone](https://github.com/marcosh)
+    - Exercise 1: [Haskell](https://github.com/marcosh/ddd-kata)
