@@ -163,3 +163,6 @@ Feel free to link your solutions to this Readme.
 
 36. [Marco Perone](https://github.com/marcosh)
     - Exercise 1: [Haskell](https://github.com/marcosh/ddd-kata)
+
+37. [Christian Gesell](https://github.com/gesellc)
+    - Exercise 1: [Python](https://github.com/gesellc/ddd-transport-tycoon/tree/master/transport-tycoon-gesellc-solutions/Exercise1)
