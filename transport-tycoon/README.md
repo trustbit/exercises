@@ -168,4 +168,4 @@ Feel free to link your solutions to this Readme.
     - Exercise 1: [Python](https://github.com/gesellc/ddd-transport-tycoon/tree/master/transport-tycoon-gesellc-solutions/Exercise1)
 
 38. [Bohdan Makohin](https://github.com/ajukraine)
-    - Exercise 1: [C#](https://github.com/ajukraine/TransportTycoon/blob/master/Exercise-1/TransportTycoon.ConsoleApp/Solution.cs)
+    - Exercise 1: [C#](https://github.com/ajukraine/TransportTycoon/blob/master/Exercise-1/TransportTycoon.Domain/Solution.cs)
