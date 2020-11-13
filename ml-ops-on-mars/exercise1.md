@@ -77,6 +77,8 @@ Please make the Data Scientists of Mars happy!
 
 You can use the language of your choice to implement the API that forwards incoming requests to the Python model. Naturally, the API should respond with whatever JSON result the model returns.
 
+Should you have any questions, don't hesitate to ask them in the [MLOps Community Slack](https://go.mlops.community/slack). You could mention `@abdullin` to get a faster response.
+
 ## Solutions
 
 Please feel free to send PRs that add your solution to this list. 
