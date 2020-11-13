@@ -69,7 +69,9 @@ Colony Director
 
 ## Task
 
-Please make the Data Scientists of Mars happy. You can use the language of your choice to implement the API that forwards incoming requests to the Python model. Naturally, the API should respond with whatever JSON result the model returns.
+Please make the Data Scientists of Mars happy!
+
+You can use the language of your choice to implement the API that forwards incoming requests to the Python model. Naturally, the API should respond with whatever JSON result the model returns.
 
 ## Solutions
 
