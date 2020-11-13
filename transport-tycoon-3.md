@@ -162,8 +162,6 @@ In fact, let us do exactly that. Lets practice a little bit of TDD/BDD and **rew
 
 - Don't hesitate to ask people about their implementations (by creating an issue on their repository or asking a question in the [github discussions](https://github.com/orgs/ddd-exercises/teams/tt/discussions)).
 
-## Next
+## The END
 
-Exercise 4 is to be announced on *December 7-14*.
-
-You can subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark) or just check this repository later.
+This is currently the end of the Transport Tycoon exercises. You can check out the other exercise sets or subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark).

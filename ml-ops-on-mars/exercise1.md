@@ -1,6 +1,4 @@
-# ML Ops on Mars: Exercise 1
-
-> I heard that you know programming...
+# ML Ops 1: I heard that you know programming...
 
 Hi!
 
@@ -10,13 +8,13 @@ There is one catch - new algorithm requires special hardware and could run only
 on our mainframe. So we need to setup an API through which the Rovers could
 submit Martian soil scans to the ML model and get the results back.
 
-I heard that you know your way around the computers. Could you take a stab in
+I heard that you know programming. Could you take a stab in
 implementing that API wrapper for us?
 
 The model could be represented by this Python script (we'll just plug the model
 later where `thread.sleep` currently is). It reads a request from the stdin,
-runs the computations and writes result back to the stdout (always as a JSON
-object on a single line, prefixed by `result: `).
+runs the computations and writes result back to the stdout. The output might contain
+different text, but the result is always a JSON object on a single line, prefixed by `result: `.
 
 
 ```python
@@ -66,4 +64,20 @@ keep the model source code in the same folder with the HTTP API server.
 I understand that this is not exactly what you came to Mars for, unfortunately
 you are all we've got. The Colony depends on you.
 
-Best regards, Colony Director
+Best regards, 
+Colony Director
+
+## Task
+
+Please make the Data Scientists of Mars happy!
+
+You can use the language of your choice to implement the API that forwards incoming requests to the Python model. Naturally, the API should respond with whatever JSON result the model returns.
+
+## Solutions
+
+Please feel free to send PRs that add your solution to this list. 
+
+- [Your Name](http://github.com/your-github-profile): [programming language](http://github.com/url-to-the-ml-ops-solution-1)
+- 
+
+
