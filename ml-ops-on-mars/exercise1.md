@@ -67,6 +67,9 @@ you are all we've got. The Colony depends on you.
 Best regards, 
 Colony Director
 
+## Task
+
+Please make the Data Scientists of Mars happy. You can use the language of your choice to implement the API that forwards incoming requests to the Python model. Naturally, the API should respond with whatever JSON result the model returns.
 
 ## Solutions
 
