@@ -2,7 +2,7 @@
 
 SoftwarePark exercises and dojos:
 
-- [Transport Tycoon and DDD/ES](transport-tycoon.md) - CLOSED.
+- [Transport Tycoon and DDD/ES](transport-tycoon.md) - COMPLETED.
 - [ML Ops on Mars](ml-ops-on-mars/readme.md) - IN PROGRESS.
 
 You can subscribe to the [mailing list](https://tinyletter.com/softwarepark) for the new exercises or just keep an eye on this repository. Updates are planned **once per week, at most**.
