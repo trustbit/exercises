@@ -10,7 +10,7 @@ We plan for ~3-4 exercises in this set.
 
 Please feel free to complete exercises and send PRs that add links to your own solutions. There will be a "Solutions" section at the end of each exercise exactly for that. 
 
-Should you have any questions, feel free to discuss them in the [MLOps Slack](https://go.mlops.community/slack). You could mention `@abdullin` and `@krasina15` to get a faster response from the us, if needed.
+Should you have any questions, feel free to discuss them in the [MLOps Slack](https://go.mlops.community/slack). You could mention `@abdullin` to get a faster response from us, if needed.
 
 
 Welcome to Mars!
