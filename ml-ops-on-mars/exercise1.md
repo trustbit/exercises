@@ -1,5 +1,7 @@
 # ML Ops 1: I heard that you know programming...
 
+
+
 Hi!
 
 Our scientists found a way to improve search algorithms of the Ice-seeker
@@ -66,6 +68,8 @@ you are all we've got. The Colony depends on you.
 
 Best regards, 
 Colony Director
+
+<img src="https://photojournal.jpl.nasa.gov/jpegMod/PIA17944_modest.jpg">
 
 ## Task
 
