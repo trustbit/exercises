@@ -13,8 +13,8 @@ implementing that API wrapper for us?
 
 The model could be represented by this Python script (we'll just plug the model
 later where `thread.sleep` currently is). It reads a request from the stdin,
-runs the computations and writes result back to the stdout (always as a JSON
-object on a single line, prefixed by `result: `).
+runs the computations and writes result back to the stdout. The output might contain
+different text, but the result is always a JSON object on a single line, prefixed by `result: `.
 
 
 ```python
