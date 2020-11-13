@@ -1,11 +1,9 @@
 # ML Ops 1: I heard that you know programming...
 
-
-
 Hi!
 
 Our scientists found a way to improve search algorithms of the Ice-seeker
-Rovers. It should help us to reach sustainability a couple of months earlier!
+Martian Rovers. It should help us to reach sustainability a couple of months earlier!
 There is one catch - new algorithm requires special hardware and could run only
 on our mainframe. So we need to setup an API through which the Rovers could
 submit Martian soil scans to the ML model and get the results back.
