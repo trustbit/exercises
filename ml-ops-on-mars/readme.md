@@ -15,4 +15,6 @@ Should you have any questions, feel free to discuss them in the [MLOps Slack](ht
 
 Welcome to Mars!
 
+PS: You could also check out the [Domain-Driven Design](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon.md) software katas. There are solutions in 11 different programming languages!
+
 <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/journey_to_mars.jpeg">
