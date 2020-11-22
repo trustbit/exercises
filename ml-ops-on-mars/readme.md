@@ -14,6 +14,7 @@ Please feel free to complete exercises and send PRs that add links to your own s
 
 Should you have any questions, feel free to discuss them in the [MLOps Slack](https://go.mlops.community/slack). You could mention `@abdullin` to get a faster response from us, if needed.
 
+Updates will be announced on the [twitter](https://twitter.com/softwarepark) and [mailing list](https://tinyletter.com/softwarepark).
 
 Welcome to Mars!
 
