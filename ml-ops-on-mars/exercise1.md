@@ -77,6 +77,8 @@ You can use the language of your choice to implement the API that forwards incom
 
 Should you have any questions, don't hesitate to ask them in the [MLOps Community Slack](https://go.mlops.community/slack). You could mention `@abdullin` to get a faster response.
 
+Once done, please check out the [exercise2.md](next message).
+
 ## Solutions
 
 Please feel free to send PRs that add your solution to this list. 

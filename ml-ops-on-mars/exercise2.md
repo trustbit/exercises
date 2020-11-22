@@ -1,4 +1,4 @@
-[back to the index](readme.md)
+[list of messages](readme.md)
 
 # ML Ops 2: We lost one rover
 
@@ -6,7 +6,7 @@ Hi!
 
 Your wrapper worked very well and allowed us to deploy the new model to production. Unfortunately we lost one of the rovers on the day one.
 
-The model representation from the previous email missed one important nuance: computation time is non-deterministic. In some edge cases the model can take more than a few minutes to compute. This deadlocks the rover and could fry his motor control board (since the API integration was bolted on in a very crude way).
+The model representation from the previous email missed one important nuance: computation time is non-deterministic. In some edge cases the model can take more than a few minutes to compute. This deadlocks the rover and could fry its motor control board (since the API integration was bolted on in a very crude way).
 
 Could you, please, take a look at the [attached model](model2.py) representation? It would be great if your model wrapper would keep a track of execution time, terminating the model if it takes more than 10 seconds. Please just return something like `{ "error": "model timeout" }`
 
@@ -35,7 +35,7 @@ Colony Director
 
 Please protect the Rovers from the misbehaving models!
 
-You need to update your model wrapper API (from the first exercise) so that it
+You need to update your model wrapper API (from the [first exercise](exercise1.md)) so that it
 would abort the HTTP call in case the model takes more than 10 seconds to execute.
 
 ## Solutions
