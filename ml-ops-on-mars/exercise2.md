@@ -24,8 +24,10 @@ If you send `{"data":33}` that would trigger a very lengthy computation that sho
 
 We are counting on you!
 
-Best regards, 
+Best regards,  
 Colony Director
+
+<img src="https://www.nasa.gov/sites/default/files/thumbnails/image/pia23378-16.jpg">
 
 ## Task
 
