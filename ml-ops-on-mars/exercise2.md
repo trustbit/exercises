@@ -43,6 +43,7 @@ would abort the HTTP call in case the model takes more than 10 seconds to execut
 Please feel free to send PRs that add your solution to this list. 
 
 - [ajukraine](https://github.com/ajukraine): [F#](https://github.com/ajukraine/ml-ops/tree/exercise-2)
+- [saintedlama](http://github.com/saintedlama): [node.js](https://github.com/saintedlama/ml-ops-on-mars/tree/exercise-2)
 - [Your Name](http://github.com/your-github-profile): [programming language](http://github.com/url-to-the-ml-ops-solution-2)
 - 
 
