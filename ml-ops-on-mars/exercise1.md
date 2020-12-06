@@ -83,7 +83,7 @@ Once done, please check out the [exercise2.md](next message).
 
 Please feel free to send PRs that add your solution to this list. 
 
-- [saintedlama](http://github.com/saintedlama): [node.js](https://github.com/saintedlama/ml-ops-on-mars)
+- [saintedlama](http://github.com/saintedlama): [node.js](https://github.com/saintedlama/ml-ops-on-mars/tree/exercise-1)
 - [marketzer](https://github.com/marketzer): [Python](https://github.com/marketzer/ml-ops-on-mars)
 - [ajukraine](https://github.com/ajukraine): [F#](https://github.com/ajukraine/ml-ops)
 - [Your Name](http://github.com/your-github-profile): [programming language](http://github.com/url-to-the-ml-ops-solution-1)
