@@ -2,21 +2,20 @@
 
 # ML Ops 3: Scheduling Overhead
 
-Good 
+Hello,
 
-Thank you for the solution to our timeout problems!. It has been a week, and the rovers are no 
-longer deadlocking on long computation times.
+Thank you for the solution to our timeout problems. It has already been a week, and we haven't lost a single rover!
 
-Folks from the sustainability lab were able to get a lot of useful data about the
-model behavior. They could improve it even further.
+Folks from the sustainability lab got a lot of useful data about the
+model behavior during that last week. They already have a v2 that is more accurate.
 
-This improvement comes at a cost - **it takes the model some time to initialize**. Fortunately, once the model is ready, 
-it could be reused for multiple computations. 
+This improvement comes at a cost - **it takes the model some time to initialize**. That's what happens when your model 
+needs to load a few TB of data... Fortunately, once the model is ready, it could be reused for multiple computations. 
 
 Attached you will find [model3.py](model3.py) which simulates this kind of behavior.
 
 Once started, the model will start initializing immediately. Once done and ready to accept requests
-it print `ready: Model-initialized` to the `stdout`.
+it prints `ready: Model-initialized` to the `stdout`.
 
 From this point you can send multiple requests to the model via `stdin`. Each request must be a valid JSON on a single line 
 that ends with a newline `\n`. If there is no incoming data on the `stdin` the model will
