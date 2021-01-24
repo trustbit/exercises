@@ -1,3 +1,5 @@
+[inbox](readme.md) | [next ➡️](exercise2.md)
+
 # ML Ops 1: I heard that you know programming...
 
 Hi!
@@ -77,8 +79,6 @@ You can use the language of your choice to implement the API that forwards incom
 
 Should you have any questions, don't hesitate to ask them in the [MLOps Community Slack](https://go.mlops.community/slack). You could mention `@abdullin` to get a faster response.
 
-Once done, please check out the [exercise2.md](next message).
-
 ## Solutions
 
 Please feel free to send PRs that add your solution to this list. 
@@ -89,4 +89,6 @@ Please feel free to send PRs that add your solution to this list.
 - [pfournea](https://github.com/pfournea): [Kotlin](https://github.com/pfournea/ml_ops_on_mars)
 - [Your Name](http://github.com/your-github-profile): [programming language](http://github.com/url-to-the-ml-ops-solution-1)
 
+## Next
 
+[✉️ 1 unread message](exercise2.md)

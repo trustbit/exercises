@@ -1,4 +1,4 @@
-[list of messages](readme.md)
+[⬅️ previous](exercise1.md) | [inbox](readme.md) | [next ➡️](exercise3.md)
 
 # ML Ops 2: We lost one rover
 
@@ -47,4 +47,8 @@ Please feel free to send PRs that add your solution to this list.
 - [Your Name](http://github.com/your-github-profile): [programming language](http://github.com/url-to-the-ml-ops-solution-2)
 - 
 
+
+## Next
+
+[✉️ 1 unread message](exercise3.md)
 
