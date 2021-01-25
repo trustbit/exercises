@@ -1,6 +1,6 @@
 [⬅️ previous](exercise2.md) | [inbox](readme.md) 
 
-# ML Ops 3: Scheduling Overhead
+# ML Ops 3: Startup Overhead
 
 Hello,
 
