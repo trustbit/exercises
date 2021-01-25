@@ -14,8 +14,8 @@ needs to load a few TB of data... Fortunately, once the model is ready, it could
 
 Attached you will find [model3.py](model3.py) which simulates this kind of behavior.
 
-Once started, the model will start initializing immediately. Once done and ready to accept requests
-it prints `ready: Model-initialized` to the `stdout`.
+The model starts initializing immediately after the start. It prints `ready: Model-initialized` to the `stdout` when ready to accept requests.
+
 
 From this point you can send multiple requests to the model via `stdin`. Each request must be a valid JSON on a single line 
 that ends with a newline `\n`. If there is no incoming data on the `stdin` the model will
