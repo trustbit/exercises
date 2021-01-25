@@ -45,7 +45,7 @@ result: {"ice_found": true}
 
 Our hardware supports running 4 models in parallel. We want to use this capacity 100% and maximize the throughput.
 
-Could you, please, figure out how to support this new model efficiently? Ideally, we want to have it before the winter solstice MY39.
+Could you please figure out how to support this new model efficiently? Ideally, we want to have it before the winter solstice MY39.
 
 Counting on you,  
 Colony Director
