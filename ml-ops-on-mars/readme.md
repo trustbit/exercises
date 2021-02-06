@@ -2,12 +2,12 @@
 
 This is a set of software exercises in the domain of ML Ops (Machine Learning Operations). They take place on Mars.
 
-We plan for ~3-4 exercises in this set.
+The exercises are presented as ✉️ messages from the Director of your colony on Mars.
 
-- Exercise 1: [I heard you know programming...](exercise1.md)
-- Exercise 2: [We lost one rover](exercise2.md)
-- Exercise 3: Overheating problem (to be announced)
-
+- Exercise 1: [✉️ I heard you know programming...](exercise1.md)
+- Exercise 2: [✉️ We lost one rover](exercise2.md)
+- Exercise 3: [✉️ Startup overhead](exercise3.md)
+- Exercise 4: ✉️ TPU scheduling problem (to be announced)
 
 
 Please feel free to complete exercises and send PRs that add links to your own solutions. There will be a "Solutions" section at the end of each exercise exactly for that. 
