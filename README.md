@@ -7,6 +7,10 @@ SoftwarePark exercises and dojos:
 
 You can subscribe to the [mailing list](https://tinyletter.com/softwarepark) for the new exercises or just keep an eye on this repository. Updates are planned **once per week, at most**.
 
+## Discord
+
+We now have a discord channel to discuss DDD/CQRS/ES and these exercises. There are only a few people there, which allows us to go really deep into the problems.
+
 ## Reason
 
 Continuous learning is one of the essential things that make up the *ethos of SoftwarePark*. As we gain new experience from our work, we want to capture the lessons learned and spread them within the company. This includes Domain-Driven Design practices as well as software engineering ideas from the specific domains. To help with that, we are doing short series of exercises within the different domains.
