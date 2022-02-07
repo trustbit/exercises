@@ -1,6 +1,6 @@
 [Back to index](transport-tycoon.md)
 
-# Exercise 1
+# Exercise 1.1
 
 > You can listen to [10-minute introduction by Peter Szarvas and Rinat Abdullin](https://storage.googleapis.com/swp-podcast/ethos/swp-ethos-podcast-01.mp3) or read the summary below.
 

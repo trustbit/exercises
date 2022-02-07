@@ -1,17 +1,14 @@
-# SoftwarePark Exercises
+# Softwarepark Exercises
 
 SoftwarePark exercises and dojos:
 
-- [Transport Tycoon and DDD/ES](transport-tycoon.md) - COMPLETED.
-- [ML Ops on Mars](ml-ops-on-mars/readme.md) - IN PROGRESS.
+- [Transport Tycoon and DDD/ES](transport-tycoon.md) - Season 2 is running.
+- [ML Ops on Mars](ml-ops-on-mars/readme.md) - PAUSED.
 
-You can subscribe to the [mailing list](https://tinyletter.com/softwarepark) for the new exercises or just keep an eye on this repository. Updates are planned **once per week, at most**.
+**Updates and discussions**:
 
-## Discord
-
-We now have a discord channel to discuss DDD/CQRS/ES and these exercises. There are only a few people there, which allows us to go really deep into the problems.
-
-[Invite Link](https://discord.gg/jHGbUwxDgv)
+- [Trustbit DDD CQRS ES on Discord](https://discord.gg/jHGbUwxDgv)
+- Subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark)
 
 ## Reason
 

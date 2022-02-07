@@ -1,6 +1,6 @@
 [Back to index](transport-tycoon.md)
 
-# Exercise 2
+# Exercise 1.2
 
 > There is a [second podcast episode](https://storage.googleapis.com/swp-podcast/ethos/swp-ethos-podcast-02.mp3) in which Peter and Rinat share thoughts about first exercise and move forward to the second one.
 

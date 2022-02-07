@@ -1,6 +1,6 @@
  [Back to index](transport-tycoon.md) | [Exercise 2](transport-tycoon-2.md)
 
-# Exercise 3
+# Exercise 1.3
 
 Let us take a moment and review what we already have:
 
