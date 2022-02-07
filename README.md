@@ -1,6 +1,6 @@
-# Softwarepark Exercises
+# Trustbit Exercises
 
-SoftwarePark exercises and dojos:
+Trustbit exercises and dojos:
 
 - [Transport Tycoon and DDD/ES](transport-tycoon.md) - **Season 2 is running** 🎉 
 - [ML Ops on Mars](ml-ops-on-mars/readme.md) - PAUSED.
@@ -12,6 +12,10 @@ SoftwarePark exercises and dojos:
 
 ## Reason
 
-Continuous learning is one of the essential things that make up the *ethos of SoftwarePark*. As we gain new experience from our work, we want to capture the lessons learned and spread them within the company. This includes Domain-Driven Design practices as well as software engineering ideas from the specific domains. To help with that, we are doing short series of exercises within the different domains.
+Continuous learning is one of the essential things that make up the *ethos of Trustbit*. As we gain new experience from our work, we want to capture the lessons learned and spread them within the company. This includes Domain-Driven Design practices as well as software engineering ideas from the specific domains. To help with that, we are doing short series of exercises within the different domains.
 
 While doing that we will keep exercises public and transparent. Perhaps, somebody else would find them helpful or entertaining.
+
+# From Softwarepark to Trustbit
+
+The company used to be called Softwarepark, but was rebranded to Trustbit recently. [Here is the story](https://trustbit.tech/from-softwarepark-to-trustbit).
