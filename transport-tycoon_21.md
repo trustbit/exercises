@@ -6,6 +6,8 @@ In the previous season of DDD katas we were working with a static route. Trucks 
 
 **Now it is the time to make things more realistic.** Transports normally aren't bound to a route and are free to find their own route on a map. Routing algorithm is the heart of any transport-based system, be it Transport Tycoon or Google ETA. 
 
+Take a look at this map (exact distances are provided below). How can a truck find the shortest route between any two cities? 
+
 ![image-20220207105046047](images/image-20220207105046047.png)
 
 ## Task
