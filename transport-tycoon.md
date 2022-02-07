@@ -16,7 +16,7 @@ This is a set of Domain-Driven Design (DDD) exercises. They take place in the un
 - [Trustbit DDD CQRS ES on Discord](https://discord.gg/jHGbUwxDgv)
 - Subscribe to the [newsletter for the updates](https://tinyletter.com/softwarepark)
 
-**Season 1** **- DDD and discrete event simulation**:
+**Season 1** **- DDD and discrete event simulation** (38 solutions submitted):
 
 - [Episode 1.1](transport-tycoon-1.md): Write a program to print time it would take to deliver cargo
 - [Episode 1.2](transport-tycoon-2.md): Log the delivery events and visualise them
