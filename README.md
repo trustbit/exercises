@@ -2,7 +2,7 @@
 
 SoftwarePark exercises and dojos:
 
-- [Transport Tycoon and DDD/ES](transport-tycoon.md) - Season 2 is running.
+- [Transport Tycoon and DDD/ES](transport-tycoon.md) - **Season 2 is running** 🎉 
 - [ML Ops on Mars](ml-ops-on-mars/readme.md) - PAUSED.
 
 **Updates and discussions**:

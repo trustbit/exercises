@@ -8,7 +8,9 @@ In the previous season of DDD katas we were working with a static route. Trucks 
 
 ![image-20220207105046047](images/image-20220207105046047.png)
 
-**Task**: write a short code that can take names of two cities and print out the shortest path between them. For example: 
+## Task
+
+Write a short code that can take names of two cities and print out the shortest path between them. For example: 
 
 ```
 $ route Steamdrift Leverstorm
@@ -16,3 +18,10 @@ Steamdrift,Irondale,Rustport,Leverstorm
 ```
 
 Here is the CSV [map with the distances](transport-tycoon/s02e01_map.csv).
+
+## Next
+
+- We maintain [a list of all solutions](transport-tycoon/README.md). Please feel free to submit a pull request adding your solution as well!
+- If you have any questions or comments - we have a [Discord chat](https://discord.gg/jHGbUwxDgv).
+- Next episode will be published within 2 weeks. You can watch this repository or [subscribe to the mailing list](https://tinyletter.com/softwarepark).
+- 🔜 Episode 2.2: Mine historical data for travel speed

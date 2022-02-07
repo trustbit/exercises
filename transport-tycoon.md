@@ -6,7 +6,8 @@ We recommend to start with the season 2.
 
 **Season 2** - **DDD, Data Science and simulation**:
 
-- 🔜 Episode 2.1: Find shortest path for to travel in a graph (work in progress)
+- [Episode 2.1](transport-tycoon_21.md): Find shortest path for travel on a map
+- 🔜 Episode 2.2: Mine historical data for travel speed
 
 **Updates and discussions**:
 
