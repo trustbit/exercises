@@ -2,11 +2,13 @@
 
 This is a set of Domain-Driven Design (DDD) exercises. They take place in the universe of the [Transport Tycoon](https://en.wikipedia.org/wiki/Transport_Tycoon). It is a game "*in which the player acts as an entrepreneur in control of a transport company, and can compete against rival companies to make as much profit as possible by transporting passengers and various goods by road, rail, sea and air*".
 
-We recommend to start with the season 2.
+ Season 2 is running 🎉 Jump right in! 
+
+
 
 **Season 2** - **DDD, Data Science and simulation**:
 
-- [Episode 2.1](transport-tycoon_21.md): Find shortest path for travel on a map
+- ✨ [Episode 2.1](transport-tycoon_21.md): Find shortest path for travel on a map
 - 🔜 Episode 2.2: Mine historical data for travel speed
 
 **Updates and discussions**:
