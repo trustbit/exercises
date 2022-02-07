@@ -17,7 +17,25 @@ $ route Steamdrift Leverstorm
 Steamdrift,Irondale,Rustport,Leverstorm
 ```
 
-Here is the CSV [map with the distances](transport-tycoon/s02e01_map.csv).
+Here is the CSV [map with the distances](transport-tycoon/s02e01_map.csv). Or in plain text:
+
+```
+A           	B           	km
+Cogburg     	Copperhold  	1047
+Leverstorm  	Irondale    	673
+Cogburg     	Steamdrift  	1269
+Copperhold  	Irondale    	345
+Copperhold  	Leverstorm  	569
+Leverstorm  	Gizbourne   	866
+Rustport    	Cogburg     	1421
+Rustport    	Steamdrift  	1947
+Rustport    	Gizbourne   	1220
+Irondale    	Gizbourne   	526
+Cogburg     	Irondale    	1034
+Rustport    	Irondale    	1302
+```
+
+
 
 ## Next
 
