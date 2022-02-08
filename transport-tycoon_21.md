@@ -16,7 +16,7 @@ Write a short code that can take names of two cities and print out the shortest 
 
 ```
 $ route Steamdrift Leverstorm
-Steamdrift,Irondale,Rustport,Leverstorm
+Steamdrift,Cogburg,Irondale,Leverstorm
 ```
 
 Here is the CSV [map with the distances](transport-tycoon/s02e01_map.csv). Or in plain text:
