@@ -1,8 +1,17 @@
 # Transport Tycoon Solutions
 
-Feel free to link your solutions to this Readme. 
+Feel free to link your solutions to this Readme by sending in a Pull Request.  
 
-> **Discussions** about the solutions are located in [Discord](https://discord.gg/jHGbUwxDgv). 
+**Discussions** about the solutions are located in [Discord](https://discord.gg/jHGbUwxDgv). 
+
+## Season 2
+
+1. [Tomek Masternak](https://github.com/tmasternak)
+   - Exercise 2.1: [C#](https://github.com/tmasternak/TransportTycoon/blob/master/Episode_2.1/TransportTycoon.Console/TransportTycoon.Console/Program.cs)
+
+
+
+## Season 1
 
 1. [Ian Russell](https://github.com/ijrussell)
    
@@ -162,5 +171,4 @@ Feel free to link your solutions to this Readme.
 38. [Bohdan Makohin](https://github.com/ajukraine)
     - Exercise 1.1: [C#](https://github.com/ajukraine/TransportTycoon/blob/master/Exercise-1/TransportTycoon.Domain/Solution.cs)
 
-39. [Tomek Masternak](https://github.com/tmasternak)
-    - Exercise 2.1: [C#](https://github.com/tmasternak/TransportTycoon/blob/master/Episode_2.1/TransportTycoon.Console/TransportTycoon.Console/Program.cs)
+    
