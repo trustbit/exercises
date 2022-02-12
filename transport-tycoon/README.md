@@ -9,7 +9,8 @@ Feel free to link your solutions to this Readme by sending in a Pull Request.
 1. [Tomek Masternak](https://github.com/tmasternak)
    - Exercise 2.1: [C#](https://github.com/tmasternak/TransportTycoon/blob/master/Episode_2.1/TransportTycoon.Console/TransportTycoon.Console/Program.cs)
 
-
+2. [Vadim Savenkov](https://github.com/vsavenkov)
+   - Excercise 2.1: [Python/Scipy (in orgmode)](https://github.com/vsavenkov/trustbit-exercises/blob/solutions/solutions/tt-season2-org/e01.org)
 
 ## Season 1
 
