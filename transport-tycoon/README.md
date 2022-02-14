@@ -12,6 +12,9 @@ Feel free to link your solutions to this Readme by sending in a Pull Request.
 2. [Vadim Savenkov](https://github.com/vsavenkov)
    - Excercise 2.1: [Python/Scipy (in orgmode)](https://github.com/vsavenkov/trustbit-exercises/blob/solutions/solutions/tt-season2-org/e01.org)
 
+3. [Rinat Abdullin](https://github.com/abdullin)
+   - Excercise 2.1: [Python](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e01_python/route.py)
+
 ## Season 1
 
 1. [Ian Russell](https://github.com/ijrussell)
