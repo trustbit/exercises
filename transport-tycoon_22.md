@@ -1,4 +1,4 @@
-[Back to index](transport-tycoon.md) 
+Previous: [Find shortest path on map](transport-tycoon_21.md) | [Index](transport-tycoon.md) 
 
 # Episode 2.2 - Compute ETA with fixed speed
 
