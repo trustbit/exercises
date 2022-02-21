@@ -1,4 +1,4 @@
-[Back to index](transport-tycoon.md) 
+[Back to index](transport-tycoon.md) | Next: [Compute ETA with fixed speed](transport-tycoon_22.md)
 
 # Episode 2.1 - Find shortest path on map
 
@@ -44,4 +44,4 @@ Rustport    	Irondale    	1302
 - We maintain [a list of all solutions](transport-tycoon/README.md). Please feel free to submit a pull request adding your solution as well!
 - If you have any questions or comments - we have a [Discord chat](https://discord.gg/jHGbUwxDgv).
 - Next episode will be published within 2 weeks. You can watch this repository or [subscribe to the mailing list](https://tinyletter.com/softwarepark).
-- 🔜 Episode 2.2: Mine historical data for travel speed
+- Episode 2.2: [Compute ETA with fixed speed](transport-tycoon_22.md)

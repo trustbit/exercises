@@ -8,8 +8,9 @@ This is a set of Domain-Driven Design (DDD) exercises. They take place in the un
 
 **Season 2** - **DDD, Data Science and simulation**:
 
-- ✨ [Episode 2.1](transport-tycoon_21.md): Find shortest path for travel on a map
-- 🔜 Episode 2.2: Mine historical data for travel speed
+-  [Episode 2.1](transport-tycoon_21.md): Find shortest path for travel on a map
+- ✨ [Episode 2.2](transport-tycoon_22.md): Compute ETA with fixed speed
+- 🔜 Episode 2.3: Mine historical data for travel speed
 
 **Updates and discussions**:
 
