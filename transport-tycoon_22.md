@@ -45,8 +45,6 @@ $ route Steamdrift Leverstorm
 31.88h  ARRIVE  Leverstorm
 ```
 
-If your solution produces a different route and slightly longer travel times, then our easter egg worked :) 
-
 Remember, that *the map is not the terrain*. The shortest path isn't always the fastest.
 
 ## Next
