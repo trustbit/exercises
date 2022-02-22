@@ -47,6 +47,14 @@ $ route Steamdrift Leverstorm
 
 Remember, that *the map is not the terrain*. The shortest path isn't always the fastest.
 
+
+
+## Implementation Notes
+
+One wau to implement the solution is to take the shortest-path algorithm and use the route to compute the milestones. This will lead to the suboptimal route.
+
+Another way is to use the shortest-path algorithm, but instead of the road distance use road travel time. We can compute it by `road.km/road.speed`.
+
 ## Next
 
 - We maintain [a list of all solutions](transport-tycoon/README.md). Please feel free to submit a pull request adding your solution as well!
