@@ -12,7 +12,7 @@ You can contribute your solution by doing the following steps:
 
 - Write a small app in your favorite language to solve an exercise.
 - Add comments or a README file explaining how others how to use your solution.
-- Publish it on github or any other publicly accessible place. Blog posts also work.
+- Publish it on github or any other publicly accessible place (you [can create a new repository](https://github.com/new) or just put it into a [gist](https://gist.github.com)). Blog posts also work.
 - Add a link to this page. You can do this by editing it directly in this UI and going for the option: _Create a **new branch** for this commit and start a pull request_. Github will do the rest for you.
 
 
