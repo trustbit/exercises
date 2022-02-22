@@ -57,7 +57,7 @@ Another way is to use the shortest-path algorithm, but instead of the road dista
 
 ## Next
 
-- We maintain [a list of all solutions](transport-tycoon/README.md). Please feel free to submit a pull request adding your solution as well!
+- Contribute your solution to [a list of all solutions](transport-tycoon/README.md)! Linked page explains how to do that.
 - If you have any questions or comments - we have a [Discord chat](https://discord.gg/jHGbUwxDgv).
 - Next episode will be published within 2 weeks. You can watch this repository or [subscribe to the mailing list](https://tinyletter.com/softwarepark).
 - 🔜 Episode 2.3: Mine historical data for travel speed

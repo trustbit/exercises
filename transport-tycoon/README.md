@@ -1,8 +1,21 @@
 # Transport Tycoon Solutions
 
+Contributing your solutions will help the community a lot. It is the way for the others to discover new languages and new programming patterns. 
+
 Feel free to link your solutions to this Readme by sending in a Pull Request.  
 
-**Discussions** about the solutions are located in [Discord](https://discord.gg/jHGbUwxDgv). 
+**Discussions** about the solutions are located in [Discord](https://discord.gg/jHGbUwxDgv). Feel free to drop by and ask questions, if you are stuck.
+
+## How to contribute?
+
+You can contribute your solution by doing the following steps:
+
+- Write a small app in your favorite language to solve an exercise.
+- Add comments or a README file explaining how others how to use your solution.
+- Publish it on github or any other publicly accessible place. Blog posts also work.
+- Add a link to this page. You can do this by editing it directly in this UI and going for the option: _Create a **new branch** for this commit and start a pull request_. Github will do the rest for you.
+
+
 
 ## Season 2
 
