@@ -41,7 +41,7 @@ Rustport    	Irondale    	1302
 
 ## Implementation Notes
 
-One possible implementation is to use [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm):
+One possible formal implementation is to use [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm):
 
 ![Dijkstra_Animation](images/Dijkstra_Animation.gif)
 
@@ -51,6 +51,43 @@ One possible implementation is to use [Dijkstra's algorithm](https://en.wikipedi
 4. When we are done considering all of the unvisited neighbors of the current location, mark the current one as visited and remove it from the unvisited set. A visited location will never be checked again.
 5. If the destination location has been marked visited (when planning a route between two specific location) or if the smallest tentative distance among the location in the unvisited set is infinity (when planning a complete traversal; occurs when there is no connection between the initial location and remaining unvisited locations), then stop. **The algorithm has finished.**
 6. Otherwise, select the unvisited location that is marked with the smallest tentative distance, set it as the new *current location*, and go back to step 3.
+
+
+
+**Alternative way to look at the problem**: we launch trucks from the starting location in all directions. When the truck arrives to a new location, we mark the location as visited and launch trucks to all unvisited locations. The first truck that arrives to the final destination is our solution.
+
+How do we "launch" trucks?
+
+We keep a priority queue that is called *travels*. It is ordered by travel distance. We schedule things by putting a milestone with a total distance traveled .
+
+When we launch a truck, we compute total travel distance and put the arrival milestone into the priority queue with that distance.
+
+You can visualise the algorithm in your mind as having trucks slowly crawling from the start location in all directions at fixed speed (e.g. 1 km/mile per hour). As soon as the first truck hits the destination, we stop the algorithm. 
+
+The entire algorithm looks like that (in pseudocode):
+
+```python
+class Milestone:
+    location: str
+    previous: Milestone
+
+# start the travels
+travels.put((0, new Milestone(start, None)))
+while not travels.empty():
+  (distance, milestone) = travels.get_next()
+  if milestone.location in visited:
+    continue #skip
+  if milestone.location == end:
+    print(f"we arrived to {end}!")
+    # traverse the event to the origin
+    return
+  visited.append(milestone.location)
+  for road in road_map[milestone.location]:
+    distance_at = distance + road.length
+    travels.put((distance_at, new Milestone(road.destination, milestone)))
+```
+
+
 
 ## Next
 
