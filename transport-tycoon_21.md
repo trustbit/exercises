@@ -10,7 +10,17 @@ Take a look at this map (exact distances are provided below). How can a truck fi
 
 ![image-20220207105046047](images/image-20220207105046047.png)
 
+## Domain Terminology
 
+While we are at it, let's define some terminology that is used by the companies and in our projects.
+
+*Location* - any point of interest that is relevant for transporation of cargo from A to B. In our exercises we'll be talking about simple locations - start/stop points and intersections. In reality locations could include warehouses, waiting areas, security checkpoints, cargo loading/unloading locations (e.g. from truck to a ferry or rail-road)
+
+*Roads* connect multiple locations. They could be truck roads, also railroads and ferry routes. Each road can have some constraints: maximum allowed weight, travel speed limitations, schedule (e.g. railroads and ferries operate on time). 
+
+_Milestones_ are events that describe travel of a cargo or a transport between locations. They are annotated with the timestamps and tell the history.
+
+_Transport_ carries _cargo_ between multiple locations. They are not the same thing. For example, a container could start on a truck, continue on a rail-road and be delivered to the final destination by another truck. 
 
 ## Task
 
