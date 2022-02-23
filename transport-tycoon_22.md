@@ -51,7 +51,7 @@ Remember, that *the map is not the terrain*. The shortest path isn't always the 
 
 ## Implementation Notes
 
-One wau to implement the solution is to take the shortest-path algorithm and use the route to compute the milestones. This will lead to the suboptimal route.
+One way to implement the solution is to take the shortest-path algorithm and use the route to compute the milestones. This will lead to the suboptimal route.
 
 Another way is to use the shortest-path algorithm, but instead of the road distance use road travel time. We can compute it by `road.km/road.speed`.
 

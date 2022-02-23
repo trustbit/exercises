@@ -1,10 +1,23 @@
-# Transport Tycoon Exercises for DDD
+# Katas for DDD, Data Science and ML
 
-This is a set of Domain-Driven Design (DDD) exercises. They take place in the universe of the [Transport Tycoon](https://en.wikipedia.org/wiki/Transport_Tycoon). It is a game "*in which the player acts as an entrepreneur in control of a transport company, and can compete against rival companies to make as much profit as possible by transporting passengers and various goods by road, rail, sea and air*".
+This is a set of small software katas (exercises). They help to improve software skills without spending too much time.
 
- Season 2 is running 🎉 Jump right in! 
+Katas are designed to gently introduce software engineers to the concepts:
 
+- logistics domain (cargo transportation)
+- Domain-Driven Design
+- Machine Learning and Data Science
 
+It is better to do all katas in order, since they are designed for a soft progression.
+
+## How to get started?
+
+1. Check out the [first exercise](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon_21.md) of the current season (find the shortest path on the map).
+2. Write a small code snippet that solves the problem.
+3. [Contribute](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md) your solution and check out the solutions of the others.
+4. Go for the next exercise.
+
+## Previous Exercises
 
 **Season 2** - **DDD, Data Science and simulation**:
 
