@@ -38,7 +38,12 @@ Rustport        Irondale        1302     95
 Write a console applocation that takes names of two cities, computes the fastest route and prints out the milestones between them. For example:
 
 ```bash
-$ route Steamdrift Leverstorm
+> route Steamdrift Leverstorm
+```
+
+and the output:
+
+```
  0.00h  DEPART  Steamdrift
 14.26h  ARRIVE  Cogburg
 24.81h  ARRIVE  Irondale
