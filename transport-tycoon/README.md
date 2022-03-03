@@ -23,10 +23,11 @@ You can contribute your solution by doing the following steps:
    - Exercise 2.1: [C#](https://github.com/tmasternak/TransportTycoon/blob/master/Episode_2.1/TransportTycoon.Console/TransportTycoon.Console/Program.cs)
 
 2. [Vadim Savenkov](https://github.com/vsavenkov)
-   - Excercise 2.1: [Python/Scipy (in orgmode)](https://github.com/vsavenkov/trustbit-exercises/blob/solutions/solutions/tt-season2-org/e01.org)
+   - Exercise 2.1: [Python/Scipy (in orgmode)](https://github.com/vsavenkov/trustbit-exercises/blob/solutions/solutions/tt-season2-org/e01.org)
 
 3. [Rinat Abdullin](https://github.com/abdullin)
-   - Excercise 2.1: [Python](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e01_python/route.py)
+   - Exercise 2.1: [Python](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e01_python/route.py)
+   - Exercise 2.2: [Python](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e02_python/route.py)
 
 ## Season 1
 
