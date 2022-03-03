@@ -31,6 +31,7 @@ You can contribute your solution by doing the following steps:
 
 4. [Daniel Weller](https://github.com/danielweller-swp)
    - Exercise 2.1: [F#](https://github.com/danielweller-swp/TransportTycoon/tree/master/episode-2.1)
+   - Exercise 2.2: [F#](https://github.com/danielweller-swp/TransportTycoon/tree/master/episode-2.2)
 
 ## Season 1
 
