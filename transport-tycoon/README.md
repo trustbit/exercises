@@ -1,8 +1,10 @@
 # Transport Tycoon Solutions
 
-Contributing your solutions will help the community a lot. It is the way for the others to discover new languages and new programming patterns. 
+These are solutions for [Transport Tycoon Exercises](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon.md)
 
-Feel free to link your solutions to this Readme by sending in a Pull Request.  
+Contributing your solutions will help the community a lot. It is a way for the others to discover new languages and new programming patterns. It is a way for all of us to learn together.
+
+Feel free to link your solutions to this Readme by sending in a Pull Request! ❤️   
 
 **Discussions** about the solutions are located in [Discord](https://discord.gg/jHGbUwxDgv). Feel free to drop by and ask questions, if you are stuck.
 
