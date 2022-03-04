@@ -1,12 +1,10 @@
-# Transport Tycoon Solutions
+Solutions for [Transport Tycoon Exercises](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon.md).
 
-These are solutions for [Transport Tycoon Exercises](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon.md)
+Contributing your solutions will help the community a lot. It is a way for the others to discover new languages and new programming patterns.
 
-Contributing your solutions will help the community a lot. It is a way for the others to discover new languages and new programming patterns. It is a way for all of us to learn together.
+Please link your solutions to this Readme by sending in a Pull Request! ❤️   
 
-Feel free to link your solutions to this Readme by sending in a Pull Request! ❤️   
-
-**Discussions** about the solutions are located in [Discord](https://discord.gg/jHGbUwxDgv). Feel free to drop by and ask questions, if you are stuck.
+**Discussions** about the solutions are located in [Discord](https://discord.gg/jHGbUwxDgv). Please drop by and ask questions, if you are stuck.
 
 ## How to contribute?
 
@@ -16,8 +14,6 @@ You can contribute your solution by doing the following steps:
 - Add comments or a README file explaining how others how to use your solution.
 - Publish it on github or any other publicly accessible place (you [can create a new repository](https://github.com/new) or just put it into a [gist](https://gist.github.com)). Blog posts also work.
 - Add a link to this page. You can do this by editing it directly in this UI and going for the option: _Create a **new branch** for this commit and start a pull request_. Github will do the rest for you.
-
-
 
 ## Season 2
 
