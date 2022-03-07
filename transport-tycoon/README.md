@@ -34,6 +34,11 @@ You can contribute your solution by doing the following steps:
 5. [Oscar Sommerer](https://github.com/oscarsommerer)
    - Exercise 2.1: [F#](https://github.com/oscarsommerer/TransportTycoon/blob/main/21/Program.fs)
 
+6. [Ian Russell](https://github.com/ijrussell)
+   - Exercise 2.1: [F#](https://github.com/ianrussellsoftwarepark/TransportTycoon2/blob/main/Episode21/Program.fs)
+   - Exercise 2.2: [F#](https://github.com/ianrussellsoftwarepark/TransportTycoon2/blob/main/Episode22/Program.fs)
+
+
 ## Season 1
 
 1. [Ian Russell](https://github.com/ijrussell)
