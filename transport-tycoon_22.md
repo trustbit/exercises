@@ -52,7 +52,7 @@ and the output:
 
 Remember, that *the map is not the terrain*. The shortest path isn't always the fastest.
 
-
+It is assumed that the input is valid. There is no need to check it for correctness.
 
 ## Implementation Notes
 

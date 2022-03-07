@@ -31,6 +31,8 @@ $ route Steamdrift Leverstorm
 Steamdrift,Irondale,Rustport,Leverstorm
 ```
 
+It is assumed that the input is valid. There is no need to check it for correctness.
+
 Here is the CSV [map with the distances](transport-tycoon/s02e01_map.csv). Or in plain text:
 
 ```
