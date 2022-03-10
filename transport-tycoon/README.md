@@ -40,6 +40,7 @@ You can contribute your solution by doing the following steps:
 
 7. [Martin Björkström](https://github.com/bjorkstromm)
    - Exercise 2.1: [F#](https://github.com/bjorkstromm/trustbit-transport-tycoon/blob/main/2.1/script.fsx)
+   - Exercise 2.2: [F#](https://github.com/bjorkstromm/trustbit-transport-tycoon/blob/main/2.2/script.fsx)
 
 ## Season 1
 
