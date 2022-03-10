@@ -38,6 +38,8 @@ You can contribute your solution by doing the following steps:
    - Exercise 2.1: [F#](https://github.com/ianrussellsoftwarepark/TransportTycoon2/blob/main/Episode21/Program.fs)
    - Exercise 2.2: [F#](https://github.com/ianrussellsoftwarepark/TransportTycoon2/blob/main/Episode22/Program.fs)
 
+7. [Martin Björkström](https://github.com/bjorkstromm)
+   - Exercise 2.1: [F#](https://github.com/bjorkstromm/trustbit-transport-tycoon/blob/main/2.1/script.fsx)
 
 ## Season 1
 
