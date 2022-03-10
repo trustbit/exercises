@@ -4,9 +4,15 @@ Previous: [Compute ETA with fixed speed](transport-tycoon_22.md) | [Index](trans
 
 In the previous exercise we computed Estimated Time of Arrival (ETA) for a cargo truck. The truck moved between two locations with a predefined speed.
 
-In the real world we would need to "mine" historical data in order to figure out the travel speed between locations. This is "training" data for the model from the previous exercises.
+In the real world we would need to **mine historical data** in order to figure out the travel speed between locations. Historical means - something that happened in the past, was observed and recorded.
 
-Also, in the real world we would need to validate the quality of our results. For example, by computing accuracy score.
+Historical data can be mined for the insights and used to **train models**. The trained model could then be used to *predict* things that didn't happen yet. 
+
+Also, in the real world we would need to **validate the quality of our model**. 
+
+We can do that by "hiding" some observations from the model and trying to predict the outcome. Then we compare observed outcome with the predicted one. Smaller is the difference - more accurate is the model.
+
+Let's focus on minimalistic training and validation in this exercise.
 
 ## Training
 
