@@ -16,9 +16,9 @@ Let's focus on minimalistic training and validation in this exercise.
 
 ## Training
 
-We have a training dataset. It is a CSV file with the travel history. It looks like this:
+We have a training dataset [s02e03_train.csv](transport-tycoon/s02e03_train.csv). It is a CSV file with the travel history. It looks like this:
 
-![image-20220310134509488](images/image-20220310134509488.png)
+![image-20220310150706585](images//image-20220310150706585.png)
 
 This file is a travel log of a company that runs multiple trucks. Whenever there is a delivery from A to B:
 
@@ -42,11 +42,11 @@ Given these numbers, you could plug them into the logistic model from the previo
 
 How do we validate our findings? How do we know if our predictions make any sense?
 
-There is a separate dataset that we could use to validate our results.
+There is a separate dataset that we could use to validate our results: [s02e03_test.csv](transport-tycoon/s02e03_test.csv). 
 
 This CSV files contains real (or *oserved*) travel times (in hours) between two locations (ATA stands for `Actual Time of Arrival`).
 
-![image-20220310140001937](images/image-20220310140001937.png) 
+![image-20220310150638459](images/image-20220310150638459.png) 
 
 We could validate our model by going through each row in this validation dataset and computing the travel time that our model would predict. Then we compare results with the `ATA` column from this table.
 
