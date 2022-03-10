@@ -1,4 +1,4 @@
-Previous: [Find shortest path on map](transport-tycoon_21.md) | [Index](transport-tycoon.md) 
+Previous: [Compute ETA with fixed speed](transport-tycoon_22.md) | [Index](transport-tycoon.md) 
 
 # Episode 2.3: Mine historical data for travel speed
 
@@ -111,5 +111,5 @@ The number above is just a sample. Your number will be slightly different :)
 - Contribute your solution to [a list of all solutions](transport-tycoon/README.md)! Linked page explains how to do that.
 - If you have any questions or comments - we have a [Discord chat](https://discord.gg/jHGbUwxDgv).
 - Next episode will be published within 2 weeks. You can watch this repository or [subscribe to the mailing list](https://tinyletter.com/softwarepark).
-- 🔜 Episode 2.4: Setting up training pipeline and iterating
+- 🔜 Episode 2.4: Setup training pipeline and iterate
 
