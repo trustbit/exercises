@@ -2,9 +2,19 @@ Previous: [Compute ETA with fixed speed](transport-tycoon_22.md) | [Index](trans
 
 # Episode 2.3: Mine historical data for travel speed
 
-In the previous exercise we computed Estimated Time of Arrival (ETA) for a cargo truck. The truck moved between two locations with a predefined speed.
+In the previous exercise we computed Estimated Time of Arrival (ETA) for a cargo truck. 
 
-In the real world we would need to **mine historical data** in order to figure out the travel speed between locations. Historical means - something that happened in the past, was observed and recorded.
+The truck moved between two locations with a **predefined speed**. We wrote a script that loaded predefined travel speed for each road from the files and computed fastest travel route between any two locations:
+
+```bash
+> route Steamdrift Leverstorm
+ 0.00h  DEPART  Steamdrift
+14.26h  ARRIVE  Cogburg
+24.81h  ARRIVE  Irondale
+31.88h  ARRIVE  Leverstorm
+```
+
+In the real world we would not have predefined travel times provided for us. We would need to **mine historical data** in order to figure out the travel speed between locations. 
 
 Historical data can be mined for the insights and used to **train models**. The trained model could then be used to *predict* things that didn't happen yet. 
 
