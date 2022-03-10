@@ -16,7 +16,7 @@ Let's focus on minimalistic training and validation in this exercise.
 
 ## Training
 
-We have a training dataset [s02e03_train.csv](transport-tycoon/s02e03_train.csv). It is a CSV file with the travel history. It looks like this:
+We have a training dataset [s02e03_train.csv](transport-tycoon/s02e03_train.csv). It is a CSV file with the travel history. It looks similar to the output from the previous exercise:
 
 ![image-20220310150706585](images//image-20220310150706585.png)
 
@@ -27,16 +27,38 @@ This file is a travel log of a company that runs multiple trucks. Whenever there
 
 We can mine that file for a history of travel times between two locations: 
 
-- load each trip from the file;
-- for each road segment (there could be more than one) - compute time difference between the moment of departure and arrival.
+- load each trip from the file (uniquely identified by value in `TRANSPORT` column);
+- each trip will have one or more segments, represented by `DEPART` event and one or more `ARRIVE` events;
+- for each road segment we can compute observed travel time by substracting arrival time from the departure: `travel_time = arrival_time - departure_time`.
 
-Each road segment will probably have more than one _sample_ of time duration. Just like, in the real world, they could also be slightly different from each other.
+For example:
 
-We can reduce a collection of travel times into a single number by aggregating. 
+```
+# CARGO-999
+DEPART Leverstorm at December 03, 16:00
+ARRIVE Irondale at December 03, 23:03
+ARRIVE Rustport at December 04, 12:07
+```
 
-Computing an *average* can be good enough for now: `travel_time = sum(travel_time_samples) / len(travel_time_samples)`
+From this we can infer that:
 
-Given these numbers, you could plug them into the logistic model from the previous exercises. It will then be able to *predict* travel time between any two locations. 
+- `Leverstorm` to `Irondale` took 23:03 - 16:00 = 07:03 hours
+- `Irondale` to `Rustport` happened overnight from December 03 23:03 to Dec 04 12:07. It took 13:04 minutes (time difference between these timestamps)
+
+By repeating that process for each transport, we will gather multiple slightly different travel times (or samples) for each road segment.
+
+We can compute an average over these times to compute road travel time that we can plug into the model:`travel_time = sum(travel_time_samples) / len(travel_time_samples)`
+
+Repeat that for each road, then load the numbers into the model from the previous exercises, and you could *predict* travel time between any two locations. 
+
+To reiterate:
+
+1. Load travel history from [s02e03_train.csv](transport-tycoon/s02e03_train.csv).
+2. Convert timestamps into travel duration times for each road.
+3. For each road compute an average travel time. 
+4. Load this data into the model from the previous exercise.
+
+The model is now trained to predict travel times using insights from the travel history.
 
 ## Validation
 
@@ -93,7 +115,11 @@ mse = error_sum / len(test_dataset)
 print(f"Mean squared error is {mse}")
 ```
 
+To reiterate:
 
+1. For each row in [s02e03_test.csv](transport-tycoon/s02e03_test.csv) use the trained model to predict travel time.
+2. For each row compute error by computing difference between the observed travel time (from the file) and predicted travel time (from the model).
+3. Aggregate these errors into a single error number by using Mean Squared Error formula.
 
 ## Task
 
