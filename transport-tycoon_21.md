@@ -1,6 +1,6 @@
 [Index](transport-tycoon.md) | Next: [Compute ETA with fixed speed](transport-tycoon_22.md)
 
-# Episode 2.1 - Find shortest path on map
+# Episode 2.1: Find shortest path on map
 
 In the previous season of DDD katas we were working with a static route. Trucks and ferries were travelling along the predefined route.  
 

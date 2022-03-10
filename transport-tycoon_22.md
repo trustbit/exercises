@@ -1,6 +1,6 @@
 Previous: [Find shortest path on map](transport-tycoon_21.md) | [Index](transport-tycoon.md) 
 
-# Episode 2.2 - Compute ETA with fixed speed
+# Episode 2.2: Compute ETA with fixed speed
 
 Before we go to data mining, let's handle one more step. Let's compute Estimated Time of Arrival (ETA) between any two locations on the map.
 
