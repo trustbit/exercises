@@ -38,6 +38,9 @@ You can contribute your solution by doing the following steps:
    - Exercise 2.1: [F#](https://github.com/ianrussellsoftwarepark/TransportTycoon2/blob/main/Episode21/Program.fs)
    - Exercise 2.2: [F#](https://github.com/ianrussellsoftwarepark/TransportTycoon2/blob/main/Episode22/Program.fs)
 
+7. [Christian Folie](https://github.com/Nagelfar)
+   - Exercise 2.1 [Elm](https://github.com/Nagelfar/tt-kata-2/tree/episode2.1)
+   - Exercise 2.2 [Elm](https://github.com/Nagelfar/tt-kata-2/tree/episode2.2)
 
 ## Season 1
 
