@@ -22,9 +22,9 @@ We will count **absolute difference** between the real (but yet hidden) speed  a
 
 ## Training
 
-We have a training dataset [s02e03_train.csv](transport-tycoon/s02e03_train.csv). It is a CSV file with the travel history.
+We have a training dataset [s02e03_train.csv](transport-tycoon/s02e03_train.csv). It is a CSV file with the travel history that looks like this:
 
-![image-20220312154741345](images//image-20220312154741345.png)
+![image-20220312161246282](images/image-20220312161246282.png)
 
 This file is a travel log of a company that runs multiple trucks. 
 
@@ -42,7 +42,7 @@ Here are our steps to build the model:
 
 Now, how do we know if our predictions make any sense? We need to validate our findings. For convenience, we have already "hidden" some travel times, and make them available in a separate dataset: [s02e03_test.csv](transport-tycoon/s02e03_test.csv). 
 
-![image-20220312155428708](images/image-20220312155428708.png) 
+![image-20220312161321504](images/image-20220312161321504.png) 
 
 We validate our model by going through each row in this validation dataset and making a prediction for it. We then take the absolute difference (*error*) between predicted speed and the real speed from this table.
 
@@ -101,7 +101,7 @@ The number above is just a sample. Your number will be slightly different :)
 
 This MSE is quite high. Can you spot any additional patterns that could be used to make the model more accurate? What is your best MSE?
 
-![image-20220312160908106](images/image-20220312160908106.png)
+![image-20220312161350094](images/image-20220312161350094.png)
 
 ## Next
 
