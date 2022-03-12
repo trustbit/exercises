@@ -1,10 +1,5 @@
 Previous: [Compute ETA with fixed speed](transport-tycoon_22.md) | [Index](transport-tycoon.md) 
 
-
-🚧 Work in progress 🚧
-
-I got feedback on this episode and will be refactoring it to simplify.
-
 # Episode 2.3: Mine historical data for travel speed
 
 In the previous exercise we computed Estimated Time of Arrival (ETA) for a cargo truck. 
@@ -35,7 +30,7 @@ This file is a travel log of a company that runs multiple trucks.
 
 A simple way to predict truck speed on a road is to average all truck speeds observed on this road in the past. 
 
-We estimate the road travel time as the average duration of all known past trips on this road. Known trips are called *observations*, or *samples*, and we write `average_speed = sum(speed_samples) / len(speed_samples)`. 
+Known events are called *observations*, or *samples*, and we write `average_speed = sum(speed_samples) / len(speed_samples)`. 
 
 Here are our steps to build the model:
 
@@ -104,7 +99,7 @@ The number above is just a sample. Your number will be slightly different :)
 
 ## Implementation Notes
 
-This MSE is quite high. Can you spot any additional patterns that could be used to make the model more accurate?
+This MSE is quite high. Can you spot any additional patterns that could be used to make the model more accurate? What is your best MSE?
 
 ![image-20220312160908106](images/image-20220312160908106.png)
 
