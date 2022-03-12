@@ -42,6 +42,10 @@ You can contribute your solution by doing the following steps:
    - Exercise 2.1: [F#](https://github.com/bjorkstromm/trustbit-transport-tycoon/blob/main/2.1/script.fsx)
    - Exercise 2.2: [F#](https://github.com/bjorkstromm/trustbit-transport-tycoon/blob/main/2.2/script.fsx)
 
+8. [Christian Folie](https://github.com/Nagelfar)
+   - Exercise 2.1 [Elm](https://github.com/Nagelfar/tt-kata-2/tree/episode2.1)
+   - Exercise 2.2 [Elm](https://github.com/Nagelfar/tt-kata-2/tree/episode2.2)
+   - 
 ## Season 1
 
 1. [Ian Russell](https://github.com/ijrussell)
