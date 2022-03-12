@@ -4,7 +4,7 @@ Previous: [Compute ETA with fixed speed](transport-tycoon_22.md) | [Index](trans
 
 In the previous exercise we computed Estimated Time of Arrival (ETA) for a cargo truck. 
 
-The truck moved between two locations with a **predefined speed**. We wrote a script that loaded predefined travel speed for each road from the files and computed fastest travel route between any two locations:
+The truck moved between two locations with a **predefined speed**. We wrote a script that loaded the travel speed for each road from a file and computed fastest travel route between any two locations:
 
 ```bash
 > route Steamdrift Leverstorm
@@ -14,15 +14,7 @@ The truck moved between two locations with a **predefined speed**. We wrote a sc
 31.88h  ARRIVE  Leverstorm
 ```
 
-In the real world we would not have predefined travel times provided for us. We would need to **mine historical data** in order to figure out the travel speed between locations. 
-
-Historical data can be mined for the insights and used to **train models**. The trained model could then be used to *predict* things that didn't happen yet. 
-
-Also, in the real world we would need to **validate the quality of our model**. 
-
-We can do that by "hiding" some observations from the model and trying to predict the outcome. Then we compare observed outcome with the predicted one. Smaller is the difference - more accurate is the model.
-
-Let's focus on minimalistic training and validation in this exercise.
+In this exercise, we will no longer rely on predefined speed values. Instead, we *mine* probable speeds from historical travel data or, put in another way, we will **train a model** for predicting speeds of future travels. To **validate the model**, we will use the standard approach: we will hide some observations (trips) when training the model, then predict speeds for these previously ignored trips, and check how accurate our prediction was. We will count **absolute difference** between the real (but yet hidden) speed  and predicted speeds: we say that the smaller is the difference (averaged over all such hidden trips), the higher is the model quality. 
 
 ## Training
 
@@ -35,7 +27,7 @@ This file is a travel log of a company that runs multiple trucks. Whenever there
 - New row is added with a unique `transport_id`, timestamp, starting location and `DEPART` event
 - One row is added for each intermediate and final milestone with `ARRIVE` event.
 
-We can mine that file for a history of travel times between two locations: 
+We can mine that file to construct a history of travel times between every two locations: 
 
 - load each trip from the file (uniquely identified by value in `TRANSPORT` column);
 - each trip will have one or more segments, represented by `DEPART` event and one or more `ARRIVE` events;
@@ -50,47 +42,40 @@ ARRIVE Irondale at December 03, 23:03
 ARRIVE Rustport at December 04, 12:07
 ```
 
-From this we can infer that:
+From this we infer the trip durations:
 
 - `Leverstorm` to `Irondale` took 23:03 - 16:00 = 07:03 hours
 - `Irondale` to `Rustport` happened overnight from December 03 23:03 to Dec 04 12:07. It took 13:04 minutes (time difference between these timestamps)
 
-By repeating that process for each transport, we will gather multiple slightly different travel times (or samples) for each road segment.
+We estimate the road travel time as the average duration of all known past trips on this road. Known trips are called *observations*, or *samples*, and we write `travel_time = sum(travel_time_samples) / len(travel_time_samples)`. We do this for each road, and combine with the model from the previous exercise - now we can *predict* travel time between any two locations (even if there are no direct trips between them in our historical data!)
 
-We can compute an average over these times to compute road travel time that we can plug into the model:`travel_time = sum(travel_time_samples) / len(travel_time_samples)`
-
-Repeat that for each road, then load the numbers into the model from the previous exercises, and you could *predict* travel time between any two locations. 
-
-To reiterate:
+Here are our steps to build the model:
 
 1. Load travel history from [s02e03_train.csv](transport-tycoon/s02e03_train.csv).
 2. Convert timestamps into travel duration times for each road.
-3. For each road compute an average travel time. 
-4. Load this data into the model from the previous exercise.
+3. For each road, compute average travel time. 
+4. Use average travel times in the model from the previous exercise.
 
-The model is now trained to predict travel times using insights from the travel history.
+A new model is now trained to predict travel times using insights from the travel history.
 
 ## Validation
 
-How do we validate our findings? How do we know if our predictions make any sense?
+Now, how do we know if our predictions make any sense? We need to validate our findings. For convenience, we have already "hidden" some travel times, and make them available in a separate dataset: [s02e03_test.csv](transport-tycoon/s02e03_test.csv). 
 
-There is a separate dataset that we could use to validate our results: [s02e03_test.csv](transport-tycoon/s02e03_test.csv). 
-
-This CSV files contains real (or *oserved*) travel times (in hours) between two locations (ATA stands for `Actual Time of Arrival`).
+This CSV files contains real (or *observed*) travel times (in hours) between two locations (ATA stands for `Actual Time of Arrival`).
 
 ![image-20220310150638459](images/image-20220310150638459.png) 
 
-We could validate our model by going through each row in this validation dataset and computing the travel time that our model would predict. Then we compare results with the `ATA` column from this table.
+We validate our model by going through each row in this validation dataset and making a prediction for it. We then take the absolute difference (*error*) between predicted time of arriveal (ata) and the real timestamp  in the `ATA` column in the table below.
 
 ```
 PREDICTED TRAVEL TIME | ACTUAL TRAVEL TIME | ERROR      | NOTE
 16:23:01              | 16:24:59           | ~2 minutes | This is quite good!
 20:44:12              | 12:42:22           | ~8 hours   | The model is WAY off here
 ```
-
 Smaller the difference between these numbers (or *error*)- more accurate the model is.
 
-In order to communicate model accuracy to the others, we would need to somehow **aggregate all errors into a single model error**. 
+In order to communicate model accuracy the others, we would need to somehow **aggregate all errors into a single model error**. 
 
 Averaging over errors wouldn't work here. Imagine you have two travel results:
 
@@ -100,19 +85,12 @@ PREDICTED TRAVEL TIME | ACTUAL TRAVEL TIME | ERROR      |
 2 hours               | 1 hour             | -1 hour    |
 ```
 
-If we average these two errors we would get `0` - which is the perfect score. 
-
-Let's use *Mean Squared Error* (MSE) instead. It is good enough for this exercise.
+If we average these two errors we would get `0` - which is the perfect score, while the error is huge, about as big as the actual trip duration!
+We can avoid this pitfall by considering error values without the signs (it does not matter if our prediction is smaller or bigger than the actual value: the absolute error is the same in both cases). In statistics, it is typical to use the *square* of the error instead of the absolute value, and to average the squared errors of all predictions in the test set. This metric is known as *Mean Squared Error* (MSE):
 
 ![e258221518869aa1c6561bb75b99476c4734108e](images/e258221518869aa1c6561bb75b99476c4734108e.svg)
 
-The equation might look scary because of the notation. it simply means:
-
-1. Compute *error* by substracting observed value from the predicted.
-2. Compute a square of each error
-3. Compute *mean* (also known as *average*) of these squared errors. 
-
-In pseudocode this could look like:
+The above formula can be computed using the following Python code:
 
 ```python
 error_sum = 0
@@ -129,14 +107,14 @@ To reiterate:
 
 1. For each row in [s02e03_test.csv](transport-tycoon/s02e03_test.csv) use the trained model to predict travel time.
 2. For each row compute error by computing difference between the observed travel time (from the file) and predicted travel time (from the model).
-3. Aggregate these errors into a single error number by using Mean Squared Error formula.
+3. Aggregate these errors into a single error number by using the Mean Squared Error formula.
 
 ## Task
 
 Write a console application that:
 
-- uses training dataset `s02e03_train.csv` to compute average travel times for each road;
-- predicts travel times in hours for each row in validation dataset  `s02e03_test.csv`;
+- uses thte training dataset `s02e03_train.csv` to compute average travel times for each road;
+- predicts travel times in hours for each row in the validation dataset `s02e03_test.csv`;
 - computes Mean Squared Error for these predictions and prints the result.
 
 For example:
