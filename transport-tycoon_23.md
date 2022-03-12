@@ -1,5 +1,10 @@
 Previous: [Compute ETA with fixed speed](transport-tycoon_22.md) | [Index](transport-tycoon.md) 
 
+
+🚧 Work in progress 🚧
+
+I got feedback on this episode and will be refactoring it to simplify.
+
 # Episode 2.3: Mine historical data for travel speed
 
 In the previous exercise we computed Estimated Time of Arrival (ETA) for a cargo truck. 
