@@ -97,11 +97,13 @@ MSE is 4444.333
 
 The number above is just a sample. Your number will be slightly different :)
 
-## Implementation Notes
+## Extra Challenge
 
-This MSE is quite high. Can you spot any additional patterns that could be used to make the model more accurate? What is your best MSE?
+You will see that MSE is quite high. This is explainable, since we have used the most simple and naive way of predicting the travel speed - by averaging the history.
 
-![image-20220312161350094](images/image-20220312161350094.png)
+In fact, it should be possible to improve prediction accuracy significantly by leveraging additional information provided in the training data. The simulation ran in a world with the traffic congestion.
+
+For the extra challenge, can you use timestamp data (time of the day and day of the week) to train and build a more accurate model?
 
 ## Next
 
