@@ -92,7 +92,7 @@ For example:
 
 ```
 > python3 solution_s0203.py
-MSE is 77.777
+MSE is 7777.777
 ```
 
 The number above is just a sample. Your number will be slightly different :)
