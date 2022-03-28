@@ -65,9 +65,9 @@ The above formula can be computed using the following Python code:
 
 ```python
 error_sum = 0
-for loc_a, loc_b, actual_hours in test_dataset:
-  preducted_hours = predict(loc_a, loc_b)
-  difference = actual_hours - predicted_hours
+for loc_a, loc_b, actual_speed in test_dataset:
+  preducted_speed = predict(loc_a, loc_b)
+  difference = actual_speed - predicted_speed
   square = difference * difference
   error_sum += square
 mse = error_sum / len(test_dataset)
@@ -92,7 +92,7 @@ For example:
 
 ```
 > python3 solution_s0203.py
-MSE is 4444.333
+MSE is 77.777
 ```
 
 The number above is just a sample. Your number will be slightly different :)
