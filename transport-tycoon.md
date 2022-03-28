@@ -14,7 +14,7 @@ It is better to do all katas in order, since they are designed for a soft progre
 
 1. Check out the [first exercise](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon_21.md) of the current season (find the shortest path on the map).
 2. Write a small code snippet that solves the problem.
-3. [Contribute](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md) your solution and check out the solutions of the others.
+3. [Contribute](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md) your solution and check out the [solutions of the others](https://github.com/Softwarepark/exercises/blob/master/transport-tycoon/README.md).
 4. Go for the next exercise.
 
 ## Previous Exercises
