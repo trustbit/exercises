@@ -25,7 +25,7 @@ You can contribute your solution by doing the following steps:
 
 3. [Rinat Abdullin](https://github.com/abdullin)
    - Exercise 2.1: [Python](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e01_python/route.py), [Swift](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e01_swift/route.swift)
-   - Exercise 2.2: [Python](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e02_python/route.py)
+   - Exercise 2.2: [Python](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e02_python/route.py), [Swift](https://github.com/abdullin/softwarepark-katas/blob/master/transport-tycoon-2/e02_swift/route.swift)
 
 4. [Daniel Weller](https://github.com/danielweller-swp)
    - Exercise 2.1: [F#](https://github.com/danielweller-swp/TransportTycoon/tree/master/episode-2.1)
