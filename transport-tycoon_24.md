@@ -1,6 +1,6 @@
 Back to [list of exercises](transport-tycoon.md).
 
-# Episode 2.4: Connect speed model to the simulation
+# Episode 2.4: Connect speed model to simulation
 
 In previous exercises we have done two things:
 
@@ -21,6 +21,8 @@ Write a pipeline that runs these two steps in one iteration:
 2. Use test data to run the simulation end-to-end using the model and compute the final MSE
 
 While computing MSE for the whole simulation, we don't care if the simulation uses different route than what was observed. We are interested only in the arrival times to the final destination: estimated time of arrival (ETA) vs actual time of arrival (ATA).
+
+> Comparing ETA and ATA produces a simple and stable quality indicator that doesn't depend on how the model works. It is used by logistic companies and their data science teams. So that is what we'll be using from now on as well. 
 
 Given the input file, we should be able to train the model and then test the entire simulation in one go.
 

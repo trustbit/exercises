@@ -110,5 +110,5 @@ For the extra challenge, can you use timestamp data (time of the day and day of 
 - Contribute your solution to [a list of all solutions](transport-tycoon/README.md)! Linked page explains how to do that.
 - If you have any questions or comments - we have a [Discord chat](https://discord.gg/jHGbUwxDgv).
 - Next episode will be published within 2 weeks. You can watch this repository or [subscribe to the mailing list](https://tinyletter.com/softwarepark).
-- 🔜 Episode 2.4: Setup training pipeline and iterate
+- Episode 2.4: [Connect speed model to simulation](transport-tycoon_24.md)
 

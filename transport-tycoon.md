@@ -23,8 +23,9 @@ It is better to do all katas in order, since they are designed for a soft progre
 
 -  Episode 2.1: [Find shortest path for travel on a map](transport-tycoon_21.md)
 - Episode 2.2: [Compute ETA with fixed speed](transport-tycoon_22.md)
-- ✨ Episode 2.3: [Mine historical data for travel speed](transport-tycoon_23.md)
-- 🔜 Episode 2.4: Setup training pipeline and iterate
+- Episode 2.3: [Mine historical data for travel speed](transport-tycoon_23.md)
+- ✨ Episode 2.4: [Connect speed model to simulation](transport-tycoon_24.md)
+- 🔜 Episode 2.5: Setting up confusion matrix
 
 **Updates and discussions**:
 
