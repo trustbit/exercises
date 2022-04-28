@@ -1,4 +1,18 @@
-# Trustbit Exercises
+# Hackathon on May 13!
+
+Join public Trustbit Hacakthon on May 13th!
+
+Participants write small programs that control trucks. We unleash them into a simulation. Leaderboards show the winner. Results are shared publicly. Best scores are awarded with prizes.
+
+You can take part in Vienna or remotely. 
+
+Simulation runtime will steer the competition towards collaboration, efficiency and sustainability. Inside it we model the passing of time, a few linked supply chains, logistic bottlenecks and CO2 emissions. 
+
+Participants can also register as a team. They get to program a whole truck fleet, then.
+
+[Register here](http://trustbit.tech/hackathon).
+
+## Trustbit Exercises
 
 Trustbit exercises and dojos:
 
