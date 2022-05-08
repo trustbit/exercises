@@ -48,7 +48,10 @@ You can contribute your solution by doing the following steps:
 8. [Christian Folie](https://github.com/Nagelfar)
    - Exercise 2.1 [Elm](https://github.com/Nagelfar/tt-kata-2/tree/episode2.1)
    - Exercise 2.2 [Elm](https://github.com/Nagelfar/tt-kata-2/tree/episode2.2)
-   - 
+
+9. [Monja Burkard](https://github.com/eigenvektorin)
+   - Exercise 2.3 [Python, MSE = 40.1](https://github.com/eigenvektorin/TransportTycoon)
+   
 ## Season 1
 
 1. [Ian Russell](https://github.com/ijrussell)
